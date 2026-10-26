@@ -39,6 +39,22 @@ The archive records specific, publicly verifiable corporate/production conduct a
 
 > 上例 URL 仅是 schema 示例，**不是证据**，不可照抄作为真实游戏的关联证明。
 
+## 对外发布双重门槛 / Publication gate
+
+**初步入库、调查中、未核实、未上榜的作品仅进入 [独立调查登记册](research/README.md)，严禁出现在中英 README 的正式 A–Z 名单和公开搜索索引。** 资料仍保存在原仓库，避免调查中断和证据丢失。只有完成核验并由维护者批准的项目方可由生成器出现在正式名单。
+
+人工批准前，维护者必须同时填写：
+
+- `decision=listed` 或 `remediated`（由维护者填写，自动任务不能修改）。
+- `editorial_approval: {"status":"approved","reviewed_by":"maintainer","reviewed_at":"YYYY-MM-DD"}`。
+- `review_basis` 选择以下两种之一：
+  1. `verified_conduct`：具体合作、原始言论或已被证实的其他明确事实，有核验过的原始来源和 `issues[].evidence_ids`，`investigation_status=verified_link`。
+  2. `documented_player_controversy`：玩家争议本身已有可复核的大规模公开讨论，且至少 3 条独立且已验证其存在的玩家来源链接、涵盖至少 2 个不同网站域名；`investigation_status=disputed` 且所有 `issues[].claim_status=disputed`。该标准只证明**存在可核验争议**，绝不把争议中尚未证实的指控升级为既定事实。
+
+相关记录均需带中英摘要、证据 ID、来源、校验日期与反证检查。来源数量只是最低归档门槛，不是客观认定“广大玩家一致反对”的民调。审核者还须判断讨论真实规模、去重、利益关系、争议是否仍在发生，以及开发商原始回应。即使已满足数量也不自动发布。
+
+英文 / English: Publication requires explicit dated human approval and either independently verified specific conduct or a clearly labeled, well-documented public controversy (at least three documented player sources across two domains). Visibility is never triggered by keywords, search counts, or automated news aggregation. This classification documents public debate; it does not establish every allegation.
+
 ## 原始证据保存与版权
 
 证据 Markdown 推荐记录：游戏名/ID、具体命题、官方或源头 URL、截图拍摄时间（UTC+8）、原始发布日期、保存人、原文短摘录、上下文、验证步骤、反证及疑问。对拥有版权许可的截图/视频可存本仓库；第三方文章优先保存链接、摘要和小范围必要引用，不整篇复制。禁止记录住址、私人联系方式、未经授权私信、凭据、仇恨攻击和骚扰号召。

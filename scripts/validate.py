@@ -53,12 +53,36 @@ def check(games, check_files=True):
                 elif e.get('verification_status') == 'verified':
                     errs.append(f'{key}: verified evidence missing provenance')
         if g['decision'] in {'listed','remediated'}:
-            if g['investigation_status'] != 'verified_link': errs.append(f'{key}: listed/remediated requires verified_link')
-            if not g['issues']: errs.append(f'{key}: listed/remediated requires specific verified issues')
+            # Fail closed: publication requires a documented, dated human decision.
+            basis=g.get('review_basis')
+            approval=g.get('editorial_approval')
+            if basis not in {'verified_conduct','documented_player_controversy'}:
+                errs.append(f'{key}: listed/remediated requires a recognized review_basis')
+            expected='disputed' if basis=='documented_player_controversy' else 'verified_link'
+            if g['investigation_status'] != expected:
+                errs.append(f'{key}: investigation_status must be {expected} for chosen review basis')
+            if not isinstance(approval,dict) or approval.get('status')!='approved' or not approval.get('reviewed_by') or not approval.get('reviewed_at'):
+                errs.append(f'{key}: listed/remediated requires dated human editorial approval')
+            else:
+                try: date.fromisoformat(approval['reviewed_at'])
+                except (TypeError,ValueError): errs.append(f'{key}: human approval date must be YYYY-MM-DD')
+            if not g['issues']: errs.append(f'{key}: listed/remediated requires documented specific issues')
             for issue in g['issues']:
                 ids=issue.get('evidence_ids',[])
-                if not ids or not set(ids).issubset(verified_ids): errs.append(f'{key}: issue needs cited verified evidence IDs')
-                if not issue.get('title_zh') or not issue.get('title_en'): errs.append(f'{key}: issue needs bilingual specific titles')
+                if not ids or not set(ids).issubset(verified_ids):
+                    errs.append(f'{key}: issue needs source-backed verified evidence IDs')
+                if not issue.get('title_zh') or not issue.get('title_en'):
+                    errs.append(f'{key}: issue needs bilingual specific titles')
+                if basis=='documented_player_controversy' and issue.get('claim_status')!='disputed':
+                    errs.append(f'{key}: community controversy must label the underlying claim disputed')
+            if basis=='documented_player_controversy':
+                # Three independently located records spanning >=2 sites;
+                # verifies the existence of a public controversy, not an allegation's truth.
+                player_urls={e.get('source_url') for e in ev.get('player',[])
+                             if isinstance(e,dict) and e.get('id') in verified_ids and valid_url(e.get('source_url'))}
+                hosts={urlparse(u).hostname.lower() for u in player_urls}
+                if len(player_urls)<3 or len(hosts)<2:
+                    errs.append(f'{key}: public controversy requires >=3 verified distinct player-discussion sources on >=2 hostnames')
             if check_files:
                 for kind in CATEGORIES:
                     p=ROOT/evidence_path(kind,gid)

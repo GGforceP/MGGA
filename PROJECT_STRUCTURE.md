@@ -24,7 +24,9 @@ MGGA/
 │   ├── README.en.md                            # English source
 │   └── EVIDENCE_RECORD.md                     # 新增证据模板
 ├── research/
-│   └── cases/<game_id>.md                    # 游戏调查档案 100 个
+│   ├── README.md                             # 中文独立调查登记册（非黑名单）
+│   ├── README.en.md                          # English research registry
+│   └── cases/<game_id>.md                    # 独立游戏调查档案 100 个
 ├── data/
 │   ├── intake-2026-10-26.json               # 本轮采集依据
 │   ├── games.json                              # 人工核准资料及避购裁决
@@ -59,3 +61,5 @@ MGGA/
 `<game_id>` 是 `data/games.json` 中的稳定标识符。每次新增游戏，应运行 `python scripts/scaffold.py` 生成四类材料目录。因为 Git 不追踪空目录，需要保存 `README.md` 等文件作为入口；资料可根据来源分类继续新增。每次新增/重命名目录，**同步修改本文件及中英 README 的结构引用**。
 
 本轮新增 100 个游戏资料文件与四类合计 400 个材料目录，每个目录保存 README 供证据继续补充。
+
+**发布隔离规则：** `README.md`、`README.en.md` 和 `docs/search-index.json` 只允许经证据审核和人工批准的 `listed/remediated` 条目；`pending/not_listed` 只列在 `research/README.md` 和 `research/README.en.md`。每天的自动渲染必须维持此边界。

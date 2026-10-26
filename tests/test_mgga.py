@@ -8,7 +8,7 @@ from common import ROOT,load_json,rel_url
 from collect import collect,rotating_game_queries,news_url
 from publish import merge,make_report,publish
 from validate import check
-from render import list_section
+from render import list_section,research_section,row
 from get_scan_run import find_run
 
 RSS=b'''<?xml version="1.0" encoding="UTF-8"?>
@@ -38,9 +38,56 @@ class MGGATest(unittest.TestCase):
         self.assertTrue(check([sample]))
     def test_history_has_strike(self):
         sample=load_json('data/games.json')[0].copy();sample['decision']='remediated';sample['issues']=[{'title_zh':'具体事项','title_en':'Specific issue'}]
-        text=list_section([sample],'zh')
+        text=row(sample,'zh')
         self.assertIn('~~',text)
         self.assertIn('测评',text)
+    def test_unreviewed_never_leaks_into_public_listing(self):
+        games=load_json('data/games.json')
+        self.assertEqual(100,len(games))
+        public=list_section(games,'zh')
+        self.assertNotIn('7 Days to Die',public)
+        self.assertNotIn('Assassin',public)
+        research=research_section(games,'zh')
+        self.assertIn('7 Days to Die',research)
+        self.assertIn('Assassin',research)
+        self.assertEqual(100,research.count('Not on the public list')+research.count('未进入正式名单'))
+
+    def test_fake_approval_is_rejected(self):
+        import copy
+        g=copy.deepcopy(load_json('data/games.json')[0])
+        g['decision']='listed'
+        g['investigation_status']='verified_link'
+        g['review_basis']='verified_conduct'
+        g['issues']=[{'title_zh':'有出处的事件','title_en':'Sourced claim','evidence_ids':['x']}]
+        g['evidence']['player']=[{'id':'x','verification_status':'verified','source_url':'https://example.com/document','file':'research/cases/'+g['game_id']+'.md','checked_at':'2026-10-26'}]
+        self.assertTrue(any('editorial approval' in err for err in check([g])))
+        self.assertNotIn(g['title_en'],list_section([g],'en'))
+
+    def test_verified_approval_qualifies(self):
+        import copy
+        g=copy.deepcopy(load_json('data/games.json')[0])
+        g['decision']='listed'
+        g['investigation_status']='verified_link'
+        g['review_basis']='verified_conduct'
+        g['editorial_approval']={'status':'approved','reviewed_by':'maintainer','reviewed_at':'2026-10-26'}
+        g['issues']=[{'title_zh':'具体已核实事项','title_en':'Specific documented finding','evidence_ids':['x']}]
+        g['evidence']['player']=[{'id':'x','verification_status':'verified','source_url':'https://example.com/original','file':'research/cases/'+g['game_id']+'.md','checked_at':'2026-10-26'}]
+        self.assertEqual([],check([g]))
+        self.assertIn(g['title_en'],list_section([g],'en'))
+
+    def test_controversy_requires_multiple_sources_and_labels(self):
+        import copy
+        g=copy.deepcopy(load_json('data/games.json')[0])
+        g['decision']='listed'
+        g['investigation_status']='disputed'
+        g['review_basis']='documented_player_controversy'
+        g['editorial_approval']={'status':'approved','reviewed_by':'maintainer','reviewed_at':'2026-10-26'}
+        g['issues']=[{'title_zh':'公开争议','title_en':'Documented controversy','claim_status':'disputed','evidence_ids':['a','b','c']}]
+        g['evidence']['player']=[{'id':v,'verification_status':'verified','source_url':url,'file':'research/cases/'+g['game_id']+'.md','checked_at':'2026-10-26'} for v,url in [('a','https://one.example/1'),('b','https://two.example/2'),('c','https://one.example/3')]]
+        self.assertEqual([],check([g]))
+        g['evidence']['player']=g['evidence']['player'][:2]
+        self.assertTrue(check([g]))
+
     def test_no_listed_examples(self):
         text=list_section(load_json('data/games.json'),'zh')
         self.assertIn('暂无',text)

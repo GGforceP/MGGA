@@ -28,7 +28,7 @@ def row(g,lang):
     return f'- {primary}\n  - **{lab}：** {issues}{correction} · {links}\n'
 
 def list_section(games,lang):
-    listed=[g for g in games if g['decision'] in {'listed','remediated'}]
+    listed=[g for g in games if g['decision'] in {'listed','remediated'} and not check([g])]
     listed.sort(key=lambda g:(g['title_en'].casefold(),g['game_id']))
     groups=defaultdict(list)
     for g in listed:
@@ -46,23 +46,44 @@ def list_section(games,lang):
         chunks.extend(row(g,lang) for g in groups[letter])
     return '\n'.join(chunks)
 
-def catalog_section(games,lang):
+def research_section(games,lang):
+    """Independent investigation register; never embedded in the avoid-list homepages."""
     zh=lang=='zh'
-    selected=sorted((g for g in games if g['decision'] in {'pending','not_listed'}),key=lambda x:x['title_en'].casefold())
-    chars=sorted(set(g['title_en'][0].upper() for g in selected))
-    lines=[' · '.join(f'[{c}](#catalog-{c.lower()})' for c in chars),'']
-    prev=''
-    for g in selected:
-        c=g['title_en'][0].upper()
-        if c!=prev: lines.extend([f'<a id="catalog-{c.lower()}"></a>',f'#### {c}','']);prev=c
-        date=g['release_date']+('年' if zh and len(g['release_date'])==4 else '')
-        platform=' / '.join(md_safe(p) for p in g['platforms'])
-        lines.append(f'- **{md_safe(g["title_en"])}**（{md_safe(g["title_zh"])}） · {date} · {platform} · [{"调查档案" if zh else "Case file"}](research/cases/{g["game_id"]}.md)')
-        issues='；'.join(md_safe(x['title_zh'] if zh else x['title_en']) for x in g['issues'])
-        if not issues: issues='尚未核实具体争议，不构成黑名单条目' if zh else 'No verified misconduct finding; not a blacklist entry'
-        links=' · '.join(f'[{cn if zh else en}]({rel_url(evidence_path(kind,g["game_id"]))})' for kind,cn,en in CATEGORIES)
-        lines.append(f'  - **{"进度" if zh else "Review"}：** {issues} · {links}')
-    return '\n'.join(lines)
+    research=sorted((g for g in games if g['decision'] in {'pending','not_listed'}),
+                    key=lambda x:(x['title_en'].casefold(),x['game_id']))
+    intro=('# MGGA — 独立调查登记册（不是黑名单）' if zh
+           else '# MGGA — Independent Research Registry (not a blacklist)')
+    guide=('> 本册仅用于收集、调查和核对；**任何列于此处的游戏均不代表已被认定违规或已经列入避购名单**。新闻标题、关键词、评论热度均非自动定论。'
+           if zh else '> Entries below are evidence-gathering cases, **not published misconduct findings or avoid-list decisions**. Search results and community discussion do not automatically establish claims.')
+    nav=('[正式避购主页](../README.md) · [English research registry](README.en.md)'
+         if zh else '[Published avoid list](../README.en.md) · [中文调查登记册](README.md)')
+    lines=[intro,'',guide,'',nav,'',f'**{"调查与未列入资料" if zh else "Open and non-listed files"}：{len(research)}**','','---','']
+    if not research:
+        lines.append('当前没有待调查条目。' if zh else 'No current research entries.')
+        return '\n'.join(lines)+'\n'
+    by_letter=defaultdict(list)
+    for g in research:
+        c=g['title_en'].strip().upper()[:1]
+        by_letter[c if 'A'<=c<='Z' else '#'].append(g)
+    letters=sorted(by_letter,key=lambda s:(s=='#',s))
+    lines.append(' · '.join(f'[{c}](#research-{c.lower() if c!="#" else "other"})' for c in letters))
+    lines.append('')
+    for letter in letters:
+        anchor=letter.lower() if letter!='#' else 'other'
+        lines.extend([f'<a id="research-{anchor}"></a>',f'## {letter}',''])
+        for g in by_letter[letter]:
+            title=md_safe(g['title_en'])
+            cn=md_safe(g['title_zh'])
+            date=g['release_date']
+            platforms=' / '.join(md_safe(p) for p in g['platforms'])
+            status={'unreviewed':'未调查 / Unreviewed','investigating':'调查中 / Investigating',
+                    'disputed':'争议待核查 / Disputed','no_verified_link':'暂未核实关联 / No verified link',
+                    'verified_link':'已有事实线索，待人工裁决 / Facts reviewed; approval pending'}
+            label=status.get(g['investigation_status'],g['investigation_status'])
+            lines.append(f'- **{title}**（{cn}） · {date} · {platforms} · [{ "资料档案" if zh else "Case file" }](cases/{g["game_id"]}.md)')
+            lines.append(f'  - **{"状态" if zh else "Status"}：** {label} · {"未进入正式名单" if zh else "Not on the public list"}')
+        lines.append('')
+    return '\n'.join(lines)+'\n'
 
 def render_one(template_name,out_name,lang,games,state):
     src=(ROOT/'templates'/template_name).read_text(encoding='utf-8')
@@ -74,8 +95,7 @@ def render_one(template_name,out_name,lang,games,state):
     status=(f'已建档 **{catalog_count}** · 当前避购 **{listed}** · 历史补救 **{remed}** · 待核查新闻线索 **{lead_count}**'
             if lang=='zh' else f'Catalog **{catalog_count}** · Active avoid list **{listed}** · Remediated archives **{remed}** · Unverified news leads **{lead_count}**')
     updated=state.get('last_published_at') or ('尚未自动发布' if lang=='zh' else 'Not published yet')
-    research_catalog=catalog_section(games,lang)
-    src=src.replace('<!-- MGGA-COUNTS -->',status).replace('<!-- MGGA-INDEX -->',listings).replace('<!-- MGGA-CATALOG -->',research_catalog).replace('<!-- MGGA-UPDATE -->',updated)
+    src=src.replace('<!-- MGGA-COUNTS -->',status).replace('<!-- MGGA-INDEX -->',listings).replace('<!-- MGGA-UPDATE -->',updated)
     (ROOT/out_name).write_text(src,encoding='utf-8')
 
 def main():
@@ -85,8 +105,12 @@ def main():
     state=load_json('data/monitor_state.json')
     render_one('README.zh.md','README.md','zh',games,state)
     render_one('README.en.md','README.en.md','en',games,state)
+    (ROOT/'research'/'README.md').write_text(research_section(games,'zh'),encoding='utf-8')
+    (ROOT/'research'/'README.en.md').write_text(research_section(games,'en'),encoding='utf-8')
+    # Only source-reviewed and human-approved cases may appear in public search.
     data=[]
-    for g in sorted(games,key=lambda v:v['title_en'].casefold()):
+    for g in sorted((x for x in games if x['decision'] in {'listed','remediated'} and not check([x])),
+                    key=lambda v:v['title_en'].casefold()):
         data.append({
             'id':g['game_id'],'en':g['title_en'],'zh':g['title_zh'],
             'aliases':g.get('aliases_zh',[]),'platforms':g['platforms'],

@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
 <title>MGGA · Game Search</title>
-<meta name="description" content="MGGA game accountability index; verified findings and unreviewed catalog entries are separately labelled.">
+<meta name="description" content="MGGA public avoid-list search; only source-reviewed and human-approved cases are displayed.">
 <style>
 :root{color-scheme:light dark;--bg:#fafafa;--fg:#16181c;--muted:#647083;--card:#fff;--edge:#dfe4e9;--accent:#1d4ed8;--light:#f2f5f9}
 @media(prefers-color-scheme:dark){:root{--bg:#101318;--fg:#eff2f5;--muted:#aab4c2;--card:#171c24;--edge:#333e4b;--accent:#90b4ff;--light:#202833}}
@@ -11,11 +11,11 @@
 </style>
 </head><body><main class="wrap">
 <header><h1>MGGA <span style="font-size:.42em;letter-spacing:0;color:var(--muted);vertical-align:middle">Make Games Great Again</span></h1>
-<p id="desc">中英游戏档案检索 · 公开证据与个人避购裁决分开记录，待查线索不等于既定事实。</p>
-<nav class="nav"><a href="https://github.com/GGforceP/MGGA/blob/main/README.md">中文 README</a><a href="https://github.com/GGforceP/MGGA/blob/main/README.en.md">English README</a><a href="https://github.com/GGforceP/MGGA/blob/main/reports/latest.md">最新线索报告</a></nav></header>
-<section class="tools" aria-label="search filters"><input id="q" type="search" aria-label="Search games" autocomplete="off" placeholder="搜索中文、英文、别名、平台、事项… / Search…"><select id="decision" aria-label="Decision"><option value="all">全部裁决 / All decisions</option><option value="listed">避购中 / Listed</option><option value="remediated">已补救 · 历史 / Remediated</option><option value="pending">待裁决 / Pending</option><option value="not_listed">未列入 / Not listed</option></select><select id="platform" aria-label="Platform"><option value="all">全部平台 / All platforms</option><option value="pc">PC</option><option value="xbox">Xbox</option><option value="playstation">PlayStation</option><option value="nintendo">Nintendo</option><option value="mobile">Mobile</option></select></section>
+<p id="desc">仅检索经来源核查与人工审核的正式避购及已补救历史；未核查游戏不展示。</p>
+<nav class="nav"><a href="https://github.com/GGforceP/MGGA/blob/main/README.md">中文 README</a><a href="https://github.com/GGforceP/MGGA/blob/main/README.en.md">English README</a><a href="https://github.com/GGforceP/MGGA/blob/main/research/README.md">独立调查登记册（非黑名单）</a></nav></header>
+<section class="tools" aria-label="search filters"><input id="q" type="search" aria-label="Search games" autocomplete="off" placeholder="搜索中文、英文、别名、平台、事项… / Search…"><select id="decision" aria-label="Decision"><option value="all">全部裁决 / All decisions</option><option value="listed">避购中 / Listed</option><option value="remediated">已补救 · 历史 / Remediated</option></select><select id="platform" aria-label="Platform"><option value="all">全部平台 / All platforms</option><option value="pc">PC</option><option value="xbox">Xbox</option><option value="playstation">PlayStation</option><option value="nintendo">Nintendo</option><option value="mobile">Mobile</option></select></section>
 <p class="summary" id="summary">正在加载 / Loading…</p><section id="results" aria-live="polite"></section>
-<footer>Only human-verified, reviewed records can be marked listed. Sources may change; consult linked evidence and correction history before drawing conclusions. · <a href="https://github.com/GGforceP/MGGA/blob/main/EVIDENCE_POLICY.md">证据标准 / Evidence policy</a></footer>
+<footer>Only documented, human-approved cases appear in this public index. Sources may change; consult linked evidence and correction history before drawing conclusions. · <a href="https://github.com/GGforceP/MGGA/blob/main/EVIDENCE_POLICY.md">证据标准 / Evidence policy</a></footer>
 </main>
 <script>
 'use strict';
@@ -28,7 +28,7 @@ function add(parent,tag,cls,text){const e=document.createElement(tag);if(cls)e.c
 function draw(){const text=norm($('q').value.trim()),decision=$('decision').value,platform=$('platform').value;
 const visible=items.filter(g=>(decision==='all'||g.decision===decision)&&(platform==='all'||g.platforms.some(p=>norm(p).includes(platform)))&&norm([g.en,g.zh,...g.aliases,...g.platforms,...g.issues_zh,...g.issues_en].join(' ')).includes(text));
 $('summary').textContent=`显示 ${visible.length} / ${items.length} 项 · Showing ${visible.length} of ${items.length} · A–Z`;
-const host=$('results');host.replaceChildren();if(!visible.length){add(host,'div','empty','未找到符合条件的游戏 / No matching games');return}
+const host=$('results');host.replaceChildren();if(!visible.length){add(host,'div','empty','当前无已通过复核并批准公开的游戏 / No approved entries or matching results');return}
 let prev='';for(const g of visible){const initial=g.en.trim().charAt(0).toUpperCase(),letter=/^[A-Z]$/.test(initial)?initial:'#';if(letter!==prev){add(host,'div','group',letter);prev=letter}
 const card=add(host,'article','entry '+g.decision);const line=add(card,'div','line');const h=add(line,'h2','name');h.title=g.en+' / '+g.zh;h.textContent=g.en;add(line,'span','cn',g.zh);
 add(card,'div','meta',g.date+' · '+g.platforms.join(' / '));const tags=add(card,'div','tags');add(tags,'span','tag',labels[g.decision]||g.decision);if(g.aliases.length)add(tags,'span','tag','别名 / Aliases: '+g.aliases.join('、'));

@@ -11,7 +11,7 @@
 
 <!-- MGGA-COUNTS -->
 
-**[A–Z index](#mgga-list)**　·　**[Search games](https://GGforceP.github.io/MGGA/)** (requires GitHub Pages)　·　**[Latest discovery report](reports/latest.md)**　·　**[Submit a lead](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[中文版](README.md)**
+**[A–Z index](#mgga-list)**　·　**[Separate research registry](research/README.en.md)**　·　**[Search games](https://GGforceP.github.io/MGGA/)** (requires GitHub Pages)　·　**[Latest discovery report](reports/latest.md)**　·　**[Submit a lead](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[中文版](README.md)**
 
 > **Three independent stages**: an unverified **lead** → a documented, verifiable **fact** → an individual **avoid-list decision**. DEI is a broad policy term, not proof of misconduct or proof of involvement by any particular consultancy. Search hits, commentary and speculation are not allegations of established fact.
 
@@ -19,17 +19,17 @@
 
 ### Avoid list · A–Z
 
-Alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
+Only source-documented, human-approved entries are shown here, alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
 
 <!-- MGGA-INDEX -->
 
-### First 100 popular titles · A–Z research catalog
+### Separate research and publication
 
-> **Research catalog, NOT an avoid-list verdict.** 75 entries are from an official Steam most-played snapshot and 25 are selected cross-platform titles. Exact localizations, platform release dates, and claim verification remain in progress.
+**Unreviewed, investigating, undecided, and not-listed titles never appear in this README's A–Z avoid list or public avoid-list search results.**
 
-[100-title research report](reports/initial-100-2026-10-26.md) · [Source manifest](data/intake-2026-10-26.json) · [Search page](https://GGforceP.github.io/MGGA/)
+Read the **[Research Registry — not a blacklist](research/README.en.md)** (or [中文调查登记册](research/README.md)) for open cases. Original documents and evidence are preserved separately. Publication requires evidence review and a recorded human decision.
 
-<!-- MGGA-CATALOG -->
+Documented widespread community controversy establishes that public discussion exists, **not** that each underlying allegation is true.
 
 ### Evidence library
 
@@ -56,7 +56,7 @@ Last successful publication: **<!-- MGGA-UPDATE -->**. Scheduled GitHub Actions 
 1. Document **specific publicly verifiable conduct**, not assumptions derived from identity, narrative elements, keywords or unproven partnership rumors.
 2. Verified claims require an **original source, precise statement, date, archived file and review record**. Preserve the context; respect copyright/privacy and never encourage harassment.
 3. Keep **remediation, counter-evidence, corrections and reversals** in the historical record. Strikethrough marks a change in verdict, not erasure of history.
-4. Humans edit `data/games.json` decisions; automated collectors update `data/leads.json` only. Lack of findings is not proof of no involvement.
+4. Humans manage `data/games.json` decisions and publication approvals; automated collectors update `data/leads.json` only. Lack of findings is not proof of no involvement.
 
 Further reading: [Evidence policy](EVIDENCE_POLICY.md) · [Contributing](CONTRIBUTING.md) · [Coverage roadmap](ROADMAP.md) · [Repository tree](PROJECT_STRUCTURE.md).
 ---
