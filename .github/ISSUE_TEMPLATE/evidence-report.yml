@@ -1,0 +1,55 @@
+name: 游戏争议证据 / Evidence report
+description: 向 MGGA 提交可核查的公开线索；不会自动判定事实。
+title: '[Evidence] '
+body:
+  - type: markdown
+    attributes:
+      value: '提交不等于核实；切勿添加私人信息、辱骂或未经许可的整篇版权材料。'
+  - type: input
+    id: game
+    attributes:
+      label: 游戏中英文全名 / Game title
+      placeholder: 'English Title（简体中文名）'
+    validations:
+      required: true
+  - type: input
+    id: claim
+    attributes:
+      label: 具体可验证主张 / Specific claim
+      placeholder: '谁、在何时、以什么具体行为做了什么？'
+    validations:
+      required: true
+  - type: input
+    id: original
+    attributes:
+      label: 原始公开链接 / Primary public source URL
+      placeholder: 'https://...'
+    validations:
+      required: true
+  - type: input
+    id: published
+    attributes:
+      label: 事件或公布日期 / Event or publication date
+      placeholder: 'YYYY-MM-DD'
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: 资料类型 / Source type
+      options:
+        - 官方声明 / Official statement
+        - 游戏开发署名 / Credits
+        - 公共企业资料 / Public corporate record
+        - 媒体测评 / Review
+        - 社区截图或讨论 / Community submission
+        - 公开补救记录 / Public remediation
+    validations:
+      required: true
+  - type: textarea
+    id: context
+    attributes:
+      label: 上下文、反证及版权说明 / Context, counter-evidence, and rights
+      description: '标注截图时间；说明是否存在反证及你是否有权提交附件。'
+    validations:
+      required: true

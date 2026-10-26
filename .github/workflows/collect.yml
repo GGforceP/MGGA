@@ -1,0 +1,31 @@
+name: MGGA Collect at 02 UTC+8
+on:
+  schedule:
+    - cron: '0 2 * * *'
+      timezone: 'Asia/Shanghai'
+  workflow_dispatch:
+permissions:
+  contents: read
+concurrency:
+  group: mgga-collect
+  cancel-in-progress: false
+jobs:
+  collect:
+    runs-on: ubuntu-latest
+    timeout-minutes: 25
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Check curated data
+        run: python scripts/validate.py
+      - name: Gather public unverified leads (NO repository commit)
+        run: python scripts/collect.py --output out/scan.json
+      - name: Temporarily store same-day scan
+        uses: actions/upload-artifact@v4
+        with:
+          name: mgga-scan
+          path: out/scan.json
+          if-no-files-found: error
+          retention-days: 2

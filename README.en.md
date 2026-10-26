@@ -1,0 +1,63 @@
+<div align="center">
+<h1>MGGA · Make Games Great Again</h1>
+<p><strong>Global Game Accountability & Public Evidence Archive / 全球游戏争议与公开证据档案</strong></p>
+<p><strong><a href="README.md">简体中文</a>　｜　<a href="README.en.md">English</a></strong></p>
+<p><sub>Tracking public statements, production links and player disputes. No judgments on game quality; every material claim should be verifiable and correctable.</sub></p>
+</div>
+
+---
+
+### At a glance
+
+Catalog **1** · Active avoid list **0** · Remediated archives **0** · Unverified news leads **0**
+
+**[A–Z index](#mgga-list)**　·　**[Search games](https://GGforceP.github.io/MGGA/)** (requires GitHub Pages)　·　**[Latest discovery report](reports/latest.md)**　·　**[Submit a lead](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[中文版](README.md)**
+
+> **Three independent stages**: an unverified **lead** → a documented, verifiable **fact** → an individual **avoid-list decision**. DEI is a broad policy term, not proof of misconduct or proof of involvement by any particular consultancy. Search hits, commentary and speculation are not allegations of established fact.
+
+<a id="mgga-list"></a>
+
+### Avoid list · A–Z
+
+Alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
+
+> **No cases have passed evidence verification and editorial listing review yet.** Search leads are not allegations.
+
+
+### Catalog entry example
+
+**Catalog example (NOT a blacklist allegation)**
+
+**ACE COMBAT 8: WINGS OF THEVE**（空战奇兵8 希孚之翼） · 2026-10-02 · PC (Steam) / Xbox Series X\|S / PlayStation 5
+
+- **Documented issue：** None verified; not included in avoid list · [Reviews](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E6%B5%8B%E8%AF%84%20%28Reviews%29/ace-combat-8-wings-of-theve/README.md) · [Promotional](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20%28Promotional%20Materials%29/ace-combat-8-wings-of-theve/README.md) · [Player evidence](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20%28Player-Submitted%20Evidence%29/ace-combat-8-wings-of-theve/README.md) · [Remediation](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20%28Remediation%20%26%20Timeline%29/ace-combat-8-wings-of-theve/README.md)
+
+
+This sample is only a factual release record, **not an allegation nor an avoid-list entry**. Official Simplified Chinese game titles take precedence; other titles are retained as searchable aliases.
+
+### Evidence library
+
+| Category | Purpose |
+|:---|:---|
+| [Reviews](附加材料%20%28Supplementary%20Materials%29/证据%20%28Evidence%29/测评%20%28Reviews%29/) | Contextual game-content analysis and verifiable reviews |
+| [Promotional materials](附加材料%20%28Supplementary%20Materials%29/证据%20%28Evidence%29/宣发材料%20%28Promotional%20Materials%29/) | Original developer/publisher announcements and public records |
+| [Player submissions](附加材料%20%28Supplementary%20Materials%29/证据%20%28Evidence%29/玩家搜集到的证据%20%28Player-Submitted%20Evidence%29/) | Screenshots, clips, source URLs and timestamps awaiting independent review |
+| [Remediation history](附加材料%20%28Supplementary%20Materials%29/补救方式、时间%20%28Remediation%20%26%20Timeline%29/) | Public apologies, corrections, reversals, separations and dated documentation |
+
+### Daily automation (UTC+8 / Asia/Shanghai)
+
+| Scheduled time | Operation | Auto-changes avoid-list decisions? |
+|:---|:---|:---|
+| **02:00** daily | Collect public multilingual RSS/search leads, deduplicate, save as temporary Actions artifact | No |
+| **06:00** daily | Validate same-day scan, publish lead report, statistics, bilingual README and searchable index to `main` | **No**; publication only |
+
+Last successful publication: **Not published yet**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
+
+### Editorial policy
+
+1. Document **specific publicly verifiable conduct**, not assumptions derived from identity, narrative elements, keywords or unproven partnership rumors.
+2. Verified claims require an **original source, precise statement, date, archived file and review record**. Preserve the context; respect copyright/privacy and never encourage harassment.
+3. Keep **remediation, counter-evidence, corrections and reversals** in the historical record. Strikethrough marks a change in verdict, not erasure of history.
+4. Humans edit `data/games.json` decisions; automated collectors update `data/leads.json` only. Lack of findings is not proof of no involvement.
+
+Further reading: [Evidence policy](EVIDENCE_POLICY.md) · [Contributing](CONTRIBUTING.md) · [Coverage roadmap](ROADMAP.md) · [Repository tree](PROJECT_STRUCTURE.md).

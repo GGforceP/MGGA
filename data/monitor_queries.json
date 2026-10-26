@@ -1,0 +1,146 @@
+[
+  {
+    "id": "sbi-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "\"Sweet Baby Inc\" video game",
+    "focus": "issue"
+  },
+  {
+    "id": "consult-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "video game narrative consultancy partnership controversy",
+    "focus": "issue"
+  },
+  {
+    "id": "studio-dei-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "video game developer DEI statement controversy",
+    "focus": "issue"
+  },
+  {
+    "id": "apology-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "game studio apology players statement update",
+    "focus": "issue"
+  },
+  {
+    "id": "sbi-zh",
+    "language": "zh",
+    "hl": "zh-CN",
+    "gl": "CN",
+    "ceid": "CN:zh-Hans",
+    "query": "游戏 甜蜜宝贝 Sweet Baby Inc 合作",
+    "focus": "issue"
+  },
+  {
+    "id": "debate-zh",
+    "language": "zh",
+    "hl": "zh-CN",
+    "gl": "CN",
+    "ceid": "CN:zh-Hans",
+    "query": "游戏 工作室 DEI 玩家 争议 公告",
+    "focus": "issue"
+  },
+  {
+    "id": "sbi-jp",
+    "language": "ja",
+    "hl": "ja",
+    "gl": "JP",
+    "ceid": "JP:ja",
+    "query": "ゲーム Sweet Baby Inc 参加 開発",
+    "focus": "issue"
+  },
+  {
+    "id": "debate-jp",
+    "language": "ja",
+    "hl": "ja",
+    "gl": "JP",
+    "ceid": "JP:ja",
+    "query": "ゲーム 開発 多様性 論争 謝罪",
+    "focus": "issue"
+  },
+  {
+    "id": "debate-de",
+    "language": "de",
+    "hl": "de",
+    "gl": "DE",
+    "ceid": "DE:de",
+    "query": "Videospiele Studio DEI Kontroverse",
+    "focus": "issue"
+  },
+  {
+    "id": "debate-fr",
+    "language": "fr",
+    "hl": "fr",
+    "gl": "FR",
+    "ceid": "FR:fr",
+    "query": "jeu vidéo studio diversité polémique joueurs",
+    "focus": "issue"
+  },
+  {
+    "id": "debate-es",
+    "language": "es",
+    "hl": "es-419",
+    "gl": "MX",
+    "ceid": "MX:es-419",
+    "query": "videojuego estudio diversidad polémica jugadores",
+    "focus": "issue"
+  },
+  {
+    "id": "releases-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "new video games released this week PC PlayStation Xbox Nintendo",
+    "focus": "release"
+  },
+  {
+    "id": "steam-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "new video game launches Steam PC this week",
+    "focus": "release"
+  },
+  {
+    "id": "mobile-en",
+    "language": "en",
+    "hl": "en-US",
+    "gl": "US",
+    "ceid": "US:en",
+    "query": "new mobile game launch iOS Android this week",
+    "focus": "release"
+  },
+  {
+    "id": "releases-zh",
+    "language": "zh",
+    "hl": "zh-CN",
+    "gl": "CN",
+    "ceid": "CN:zh-Hans",
+    "query": "新游戏 发售 上线 本周 主机 PC 手游",
+    "focus": "release"
+  },
+  {
+    "id": "releases-jp",
+    "language": "ja",
+    "hl": "ja",
+    "gl": "JP",
+    "ceid": "JP:ja",
+    "query": "ゲーム 新作 発売 今週 Steam Switch PS5",
+    "focus": "release"
+  }
+]

@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MGGA · Game Search</title>
+<meta name="description" content="MGGA game accountability index; verified findings and unreviewed catalog entries are separately labelled.">
+<style>
+:root{color-scheme:light dark;--bg:#fafafa;--fg:#16181c;--muted:#647083;--card:#fff;--edge:#dfe4e9;--accent:#1d4ed8;--light:#f2f5f9}
+@media(prefers-color-scheme:dark){:root{--bg:#101318;--fg:#eff2f5;--muted:#aab4c2;--card:#171c24;--edge:#333e4b;--accent:#90b4ff;--light:#202833}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:15px/1.65 system-ui,-apple-system,"Segoe UI",sans-serif}a{color:var(--accent)}.wrap{max-width:1040px;margin:auto;padding:48px 22px 64px}header{border-bottom:1px solid var(--edge);padding-bottom:25px}header h1{font-size:clamp(29px,5vw,50px);margin:0 0 8px;letter-spacing:-1.6px;line-height:1.15}header p{color:var(--muted);margin:0;max-width:700px}.nav{display:flex;gap:20px;flex-wrap:wrap;margin-top:18px}.nav a{text-decoration:none}.tools{display:grid;grid-template-columns:minmax(210px,1fr) 190px 190px;gap:10px;margin:24px 0 8px}input,select{font:inherit;color:var(--fg);background:var(--card);border:1px solid var(--edge);border-radius:10px;padding:13px 14px;min-width:0;outline-offset:3px}input:focus,select:focus{border-color:var(--accent)}.summary{font-size:13px;color:var(--muted);margin:12px 0 17px}.group{margin:25px 0 12px;font-weight:750;color:var(--muted);border-bottom:1px solid var(--edge);padding-bottom:7px;letter-spacing:.06em}.entry{padding:17px 19px;margin:10px 0;background:var(--card);border:1px solid var(--edge);border-radius:12px}.entry h2{font-size:16px;margin:0 0 4px;line-height:1.45}.line{display:flex;gap:12px;align-items:baseline;flex-wrap:wrap}.name{overflow:hidden;text-overflow:ellipsis;white-space:nowrap;min-width:0;flex:1}.cn,.meta{color:var(--muted);font-size:13px}.meta{margin:6px 0}.tags{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0}.tag{font-size:12px;padding:2px 8px;border-radius:7px;background:var(--light)}.entry a{font-size:13px}.links{display:flex;gap:14px;flex-wrap:wrap}.issue{margin:9px 0;color:var(--fg);font-size:13px}.entry.remediated h2{text-decoration:line-through;color:var(--muted)}.empty{border:1px dashed var(--edge);border-radius:12px;padding:40px;text-align:center;color:var(--muted)}footer{margin-top:40px;border-top:1px solid var(--edge);padding-top:20px;color:var(--muted);font-size:13px}@media(max-width:680px){.wrap{padding:28px 14px 48px}.tools{grid-template-columns:1fr}.line{display:block}.name{white-space:normal}.entry{padding:14px}}
+</style>
+</head><body><main class="wrap">
+<header><h1>MGGA <span style="font-size:.42em;letter-spacing:0;color:var(--muted);vertical-align:middle">Make Games Great Again</span></h1>
+<p id="desc">中英游戏档案检索 · 公开证据与个人避购裁决分开记录，待查线索不等于既定事实。</p>
+<nav class="nav"><a href="https://github.com/GGforceP/MGGA/blob/main/README.md">中文 README</a><a href="https://github.com/GGforceP/MGGA/blob/main/README.en.md">English README</a><a href="https://github.com/GGforceP/MGGA/blob/main/reports/latest.md">最新线索报告</a></nav></header>
+<section class="tools" aria-label="search filters"><input id="q" type="search" aria-label="Search games" autocomplete="off" placeholder="搜索中文、英文、别名、平台、事项… / Search…"><select id="decision" aria-label="Decision"><option value="all">全部裁决 / All decisions</option><option value="listed">避购中 / Listed</option><option value="remediated">已补救 · 历史 / Remediated</option><option value="pending">待裁决 / Pending</option><option value="not_listed">未列入 / Not listed</option></select><select id="platform" aria-label="Platform"><option value="all">全部平台 / All platforms</option><option value="pc">PC</option><option value="xbox">Xbox</option><option value="playstation">PlayStation</option><option value="nintendo">Nintendo</option><option value="mobile">Mobile</option></select></section>
+<p class="summary" id="summary">正在加载 / Loading…</p><section id="results" aria-live="polite"></section>
+<footer>Only human-verified, reviewed records can be marked listed. Sources may change; consult linked evidence and correction history before drawing conclusions. · <a href="https://github.com/GGforceP/MGGA/blob/main/EVIDENCE_POLICY.md">证据标准 / Evidence policy</a></footer>
+</main>
+<script>
+'use strict';
+const $=id=>document.getElementById(id);
+let items=[];
+const labels={listed:'正式避购 / Listed',remediated:'已补救 · 保留历史 / Remediated',pending:'待核查或裁决 / Pending',not_listed:'未列入 / Not listed'};
+const links={reviews:'测评 / Reviews',promotional:'宣发 / Promotional',player:'玩家证据 / Player evidence',remediation:'补救 / Remediation'};
+const norm=s=>String(s||'').normalize('NFKC').toLocaleLowerCase();
+function add(parent,tag,cls,text){const e=document.createElement(tag);if(cls)e.className=cls;if(text!==undefined)e.textContent=text;parent.appendChild(e);return e}
+function draw(){const text=norm($('q').value.trim()),decision=$('decision').value,platform=$('platform').value;
+const visible=items.filter(g=>(decision==='all'||g.decision===decision)&&(platform==='all'||g.platforms.some(p=>norm(p).includes(platform)))&&norm([g.en,g.zh,...g.aliases,...g.platforms,...g.issues_zh,...g.issues_en].join(' ')).includes(text));
+$('summary').textContent=`显示 ${visible.length} / ${items.length} 项 · Showing ${visible.length} of ${items.length} · A–Z`;
+const host=$('results');host.replaceChildren();if(!visible.length){add(host,'div','empty','未找到符合条件的游戏 / No matching games');return}
+let prev='';for(const g of visible){const initial=g.en.trim().charAt(0).toUpperCase(),letter=/^[A-Z]$/.test(initial)?initial:'#';if(letter!==prev){add(host,'div','group',letter);prev=letter}
+const card=add(host,'article','entry '+g.decision);const line=add(card,'div','line');const h=add(line,'h2','name');h.title=g.en+' / '+g.zh;h.textContent=g.en;add(line,'span','cn',g.zh);
+add(card,'div','meta',g.date+' · '+g.platforms.join(' / '));const tags=add(card,'div','tags');add(tags,'span','tag',labels[g.decision]||g.decision);if(g.aliases.length)add(tags,'span','tag','别名 / Aliases: '+g.aliases.join('、'));
+const issues=g.issues_zh.length?g.issues_zh.join('；'):'未验证具体事项 / No verified issue';add(card,'p','issue',issues);
+const nav=add(card,'div','links');for(const [key,text]of Object.entries(links)){const a=add(nav,'a','',text);a.href=g.evidence[key];a.target='_blank';a.rel='noopener noreferrer'}const official=add(nav,'a','','官网 / Official');official.href=g.official;official.target='_blank';official.rel='noopener noreferrer';
+}}
+Promise.resolve().then(()=>fetch('./search-index.json',{cache:'no-store'})).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{items=data;draw()}).catch(err=>{$('summary').textContent='数据尚不可用 / Search data unavailable: '+err.message;});
+for(const id of ['q','decision','platform'])$(id).addEventListener(id==='q'?'input':'change',draw);
+</script>
+</body></html>

@@ -1,0 +1,56 @@
+name: MGGA Publish at 06 UTC+8
+on:
+  schedule:
+    - cron: '0 6 * * *'
+      timezone: 'Asia/Shanghai'
+  workflow_dispatch:
+permissions:
+  contents: write
+  actions: read
+concurrency:
+  group: mgga-publish
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          persist-credentials: true
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Find successful 02:00 scan from today (China time)
+        env:
+          GH_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        shell: bash
+        run: |
+          run_id="$(python scripts/get_scan_run.py)"
+          echo "COLLECT_RUN_ID=$run_id" >> "$GITHUB_ENV"
+      - name: Download today's temporary scan
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          mkdir -p staging
+          gh run download "$COLLECT_RUN_ID" --name mgga-scan --dir staging
+          test -f staging/scan.json
+      - name: Validate and publish (no automatic allegations)
+        run: |
+          python scripts/validate.py
+          python scripts/publish.py --input staging/scan.json
+          python scripts/scaffold.py
+          python scripts/render.py
+          python -m unittest discover -s tests -v
+      - name: Commit only if published files changed
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add README.md README.en.md docs/search-index.json data/leads.json data/monitor_state.json reports/latest.md
+          if ! git diff --cached --quiet; then
+            git commit -m "chore: publish daily MGGA leads (unverified)"
+            git push
+          else
+            echo 'No changes to commit.'
+          fi

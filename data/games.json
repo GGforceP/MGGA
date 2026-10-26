@@ -1,0 +1,20 @@
+[
+  {
+    "game_id": "ace-combat-8-wings-of-theve",
+    "title_en": "ACE COMBAT 8: WINGS OF THEVE",
+    "title_zh": "空战奇兵8 希孚之翼",
+    "aliases_zh": ["皇牌空战8：希孚之翼"],
+    "release_date": "2026-10-02",
+    "platforms": ["PC (Steam)", "Xbox Series X|S", "PlayStation 5"],
+    "official_url": "https://www.bandainamcoent.com/games/ace-combat-8",
+    "catalog_sources": [
+      "https://www.bandainamcoent.asia/tw-sc/news/20261002-01",
+      "https://acecombat.jp/en/product/"
+    ],
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {"reviews": [], "promotional": [], "player": []},
+    "remediation": {"status": "none", "date": null, "summary_zh": "", "summary_en": "", "sources": []}
+  }
+]
