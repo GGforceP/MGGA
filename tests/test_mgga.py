@@ -23,7 +23,7 @@ class MGGATest(unittest.TestCase):
         q=rotating_game_queries(games,datetime(2026,10,26,tzinfo=timezone.utc))
         self.assertEqual(20,len(q))
         self.assertEqual(20,len({x['id'] for x in q}))
-        self.assertTrue(all('when:12d' in news_url(x) for x in q))
+        self.assertTrue(all(x.get('lookback_days')==12 for x in q))
         self.assertTrue(all(x['focus']=='game_issue' for x in q))
     def test_collect_dedup_does_not_verify(self):
         cfg=[{'id':'a','language':'en','hl':'en-US','gl':'US','ceid':'US:en','query':'x'},
