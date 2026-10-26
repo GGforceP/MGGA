@@ -55,6 +55,16 @@ The archive records specific, publicly verifiable corporate/production conduct a
 
 英文 / English: Publication requires explicit dated human approval and either independently verified specific conduct or a clearly labeled, well-documented public controversy (at least three documented player sources across two domains). Visibility is never triggered by keywords, search counts, or automated news aggregation. This classification documents public debate; it does not establish every allegation.
 
+## 新增：偏保守的个人审美避购规则 / Personal aesthetic selection
+
+维护者明确表示：**宁可先按个人偏好避购，也不要求每一款游戏都证明参与了特定机构合作**。符合明确个人审美选择的游戏可直接上榜，但必须区分已核实的角色展示、公开评论存在这一事实，与“难看”“不喜欢”等主观判断。
+
+- `review_basis=personal_aesthetic`；`investigation_status=disputed`；`issues[].claim_status=opinion`；`editorial_approval` 必须包括维护者明确指令及日期。
+- 至少记录一份官方原始角色视觉来源，以及一条已核对的独立公开审美评论或玩家讨论；这只是对来源和意见存在的验证，**不是对审美结论的客观证明**。
+- 可以讨论角色体型、面部风格、服装、艺术方向、性别呈现等虚构角色设计，按维护者的个人喜好采取避购决定，但不能单凭人种、性别身份、身材判断现实个人价值，也不能无证据指控创作者的故意动机。
+- `documented_player_controversy` 保留另一条上榜通道：可证实广泛玩家争议存在，但争议中的指控仍须标记有争议，不得写成已实锤。
+- 新增的公开条目需在正文显著标注：**已证实事实 / 公开争议 / 个人审美避购**，避免读者把个人喜恶当作客观事实。
+
 ## 原始证据保存与版权
 
 证据 Markdown 推荐记录：游戏名/ID、具体命题、官方或源头 URL、截图拍摄时间（UTC+8）、原始发布日期、保存人、原文短摘录、上下文、验证步骤、反证及疑问。对拥有版权许可的截图/视频可存本仓库；第三方文章优先保存链接、摘要和小范围必要引用，不整篇复制。禁止记录住址、私人联系方式、未经授权私信、凭据、仇恨攻击和骚扰号召。

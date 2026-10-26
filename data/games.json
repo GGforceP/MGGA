@@ -681,6 +681,90 @@
     }
   },
   {
+    "game_id": "concord",
+    "title_en": "Concord",
+    "title_zh": "星鸣特攻",
+    "aliases_zh": [
+      "星鸣特工",
+      "星鳴特攻"
+    ],
+    "release_date": "2024-08-23",
+    "platforms": [
+      "PC (Steam)",
+      "PlayStation 5"
+    ],
+    "official_url": "https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/",
+    "catalog_sources": [
+      "https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/",
+      "https://www.dexerto.com/gaming/concord-slammed-over-ugliest-character-designs-ever-2754244/",
+      "https://www.reddit.com/r/gaming/comments/1d4ylfi/concord_might_have_the_ugliest_characters_designs/",
+      "https://www.reddit.com/r/ConcordGame/comments/1e57g8g",
+      "https://sonyinteractive.com/en/news/blog/an-update-from-playstation-studios/"
+    ],
+    "intake_source": "explicit_maintainer_preference_2026-10-26",
+    "investigation_status": "disputed",
+    "decision": "listed",
+    "review_basis": "personal_aesthetic",
+    "editorial_approval": {
+      "status": "approved",
+      "reviewed_by": "maintainer_direct_instruction",
+      "reviewed_at": "2026-10-26",
+      "source": "user's explicit 2026-10-26 aesthetic avoid-list instruction"
+    },
+    "aesthetic_review": {
+      "is_personal_preference": true,
+      "details_zh": "维护者以游戏角色造型、服装配色与美术风格不符合个人审美为由拒购，公开资料证明游戏呈现及玩家批评存在，但不证明制作团队主观故意。",
+      "details_en": "Personal aesthetic avoidance: widely criticized character visuals; any claim of deliberate uglification remains unverified",
+      "deliberate_intent_verified": false
+    },
+    "issues": [
+      {
+        "title_zh": "个人审美避购：角色视觉设计存在大量负面玩家讨论，维护者不接受其造型风格；“故意丑化”等创作动机未证实",
+        "title_en": "Personal aesthetic avoidance: widely criticized character visuals; any claim of deliberate uglification remains unverified",
+        "claim_status": "opinion",
+        "evidence_ids": [
+          "concord-promotional",
+          "concord-reviews",
+          "concord-player"
+        ]
+      }
+    ],
+    "evidence": {
+      "reviews": [
+        {
+          "id": "concord-reviews",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/测评 (Reviews)/concord/source.md",
+          "verification_status": "verified",
+          "checked_at": "2026-10-26"
+        }
+      ],
+      "promotional": [
+        {
+          "id": "concord-promotional",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/宣发材料 (Promotional Materials)/concord/source.md",
+          "verification_status": "verified",
+          "checked_at": "2026-10-26"
+        }
+      ],
+      "player": [
+        {
+          "id": "concord-player",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/玩家搜集到的证据 (Player-Submitted Evidence)/concord/source.md",
+          "source_url": "https://www.reddit.com/r/gaming/comments/1d4ylfi/concord_might_have_the_ugliest_characters_designs/",
+          "verification_status": "verified",
+          "checked_at": "2026-10-26"
+        }
+      ]
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
     "game_id": "counter-strike-2",
     "title_en": "Counter-Strike 2",
     "title_zh": "反恐精英2",
@@ -1001,6 +1085,92 @@
       "reviews": [],
       "promotional": [],
       "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "dying-light-2-stay-human",
+    "title_en": "Dying Light 2 Stay Human",
+    "title_zh": "消逝的光芒2：人与仁之战",
+    "aliases_zh": [
+      "消逝的光芒2：坚守人性"
+    ],
+    "release_date": "2022-02-04",
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5",
+      "Xbox One",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://techland.net/news/meet-lawan-from-dying-light-2-stay-human",
+    "catalog_sources": [
+      "https://techland.net/news/meet-lawan-from-dying-light-2-stay-human",
+      "https://www.thepaper.cn/newsDetail_forward_19694512",
+      "https://www.reddit.com/r/dyinglight/comments/1jj9wqj",
+      "https://www.reddit.com/r/dyinglight/comments/1llm0bs/lawan_looks_different/",
+      "https://techland.net/news/dying-light-2-stay-human-is-out"
+    ],
+    "intake_source": "explicit_maintainer_preference_2026-10-26",
+    "investigation_status": "disputed",
+    "decision": "listed",
+    "review_basis": "personal_aesthetic",
+    "editorial_approval": {
+      "status": "approved",
+      "reviewed_by": "maintainer_direct_instruction",
+      "reviewed_at": "2026-10-26",
+      "source": "user's explicit 2026-10-26 aesthetic avoid-list instruction"
+    },
+    "aesthetic_review": {
+      "is_personal_preference": true,
+      "details_zh": "维护者不接受拉万（Lawan）的人物造型；官方介绍可核实角色展示，公开媒体和社区讨论提供不同审美意见，不推断开发商的政治动机。",
+      "details_en": "Personal aesthetic avoidance: Lawan's original design drew visual criticism; later optional appearance changes are documented separately",
+      "deliberate_intent_verified": false
+    },
+    "issues": [
+      {
+        "title_zh": "个人审美避购：拉万（Lawan）原始角色造型受到外观批评，维护者不接受该设计；后续皮肤变化另行记录",
+        "title_en": "Personal aesthetic avoidance: Lawan's original design drew visual criticism; later optional appearance changes are documented separately",
+        "claim_status": "opinion",
+        "evidence_ids": [
+          "dying-light-2-stay-human-promotional",
+          "dying-light-2-stay-human-reviews",
+          "dying-light-2-stay-human-player"
+        ]
+      }
+    ],
+    "evidence": {
+      "reviews": [
+        {
+          "id": "dying-light-2-stay-human-reviews",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/测评 (Reviews)/dying-light-2-stay-human/source.md",
+          "verification_status": "verified",
+          "checked_at": "2026-10-26"
+        }
+      ],
+      "promotional": [
+        {
+          "id": "dying-light-2-stay-human-promotional",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/宣发材料 (Promotional Materials)/dying-light-2-stay-human/source.md",
+          "verification_status": "verified",
+          "checked_at": "2026-10-26"
+        }
+      ],
+      "player": [
+        {
+          "id": "dying-light-2-stay-human-player",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/玩家搜集到的证据 (Player-Submitted Evidence)/dying-light-2-stay-human/source.md",
+          "source_url": "https://www.reddit.com/r/dyinglight/comments/1jj9wqj",
+          "verification_status": "verified",
+          "checked_at": "2026-10-26"
+        }
+      ]
     },
     "remediation": {
       "status": "none",

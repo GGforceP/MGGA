@@ -63,3 +63,5 @@ MGGA/
 本轮新增 100 个游戏资料文件与四类合计 400 个材料目录，每个目录保存 README 供证据继续补充。
 
 **发布隔离规则：** `README.md`、`README.en.md` 和 `docs/search-index.json` 只允许经证据审核和人工批准的 `listed/remediated` 条目；`pending/not_listed` 只列在 `research/README.md` 和 `research/README.en.md`。每天的自动渲染必须维持此边界。
+
+2026-10-26：新增《Concord》与《Dying Light 2 Stay Human》两项维护者个人审美避购案例，沿用相同四类证据目录与补救时间线。其余100款仍在独立调查登记册。

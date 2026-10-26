@@ -17,9 +17,15 @@
 
 <a id="mgga-list"></a>
 
+### Conservative personal avoidance policy
+
+MGGA is the maintainer's **personal avoidance guide**. Specific verified conduct, documented player controversies, and explicitly selected **character appearance, visual styling, body proportions, costume, gender presentation in fictional designs or overall art direction** can all be reasons for an individual avoidance decision, with no need to prove a specific consultancy's involvement.
+
+Every published entry distinguishes **verified facts, documented debate, and personal aesthetic judgments**. Claims about intentional motives require separate evidence.
+
 ### Avoid list · A–Z
 
-Only source-documented, human-approved entries are shown here, alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
+Only documented, human-approved entries, including labelled personal aesthetic judgments, are shown here, alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
 
 <!-- MGGA-INDEX -->
 

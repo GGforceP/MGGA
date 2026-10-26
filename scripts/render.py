@@ -23,7 +23,7 @@ def row(g,lang):
     primary=f'**{title}**（{cn}） · {date} · {platforms}' if zh else f'**{title}** ({cn}) · {date} · {platforms}'
     issues='；'.join(md_safe(i['title_zh']) for i in g['issues']) if zh else '; '.join(md_safe(i['title_en']) for i in g['issues'])
     links=' · '.join(f'[{cnlab if zh else enlab}]({rel_url(evidence_path(kind,g["game_id"]))})' for kind,cnlab,enlab in CATEGORIES)
-    lab='涉及事项' if zh else 'Documented issue'
+    lab=('个人审美避购理由' if zh else 'Personal aesthetic choice') if g.get('review_basis')=='personal_aesthetic' else ('涉及事项' if zh else 'Documented issue')
     correction=(' **｜已补救，保留历史记录**' if zh else ' **| Remediated; history retained**') if g['decision']=='remediated' else ''
     return f'- {primary}\n  - **{lab}：** {issues}{correction} · {links}\n'
 

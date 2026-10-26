@@ -43,7 +43,7 @@ class MGGATest(unittest.TestCase):
         self.assertIn('测评',text)
     def test_unreviewed_never_leaks_into_public_listing(self):
         games=load_json('data/games.json')
-        self.assertEqual(100,len(games))
+        self.assertEqual(102,len(games))
         public=list_section(games,'zh')
         self.assertNotIn('7 Days to Die',public)
         self.assertNotIn('Assassin',public)
@@ -100,13 +100,28 @@ class MGGATest(unittest.TestCase):
         self.assertNotIn('首批100款热门游戏',public_cn)
         self.assertIn('7 Days to Die',(ROOT/'research'/'README.md').read_text(encoding='utf-8'))
         self.assertIn('7 Days to Die',(ROOT/'research'/'README.en.md').read_text(encoding='utf-8'))
-        self.assertEqual([],json.loads((ROOT/'docs'/'search-index.json').read_text(encoding='utf-8')))
+        self.assertEqual(2,len(json.loads((ROOT/'docs'/'search-index.json').read_text(encoding='utf-8'))))
         self.assertTrue(public_cn.strip().endswith('</p>'))
         self.assertIn('Powered by Codex',public_en)
+        self.assertIn('Concord',public_en)
+        self.assertIn('Dying Light 2 Stay Human',public_cn)
 
-    def test_no_listed_examples(self):
-        text=list_section(load_json('data/games.json'),'zh')
-        self.assertIn('当前没有经过证据核实',text)
+    def test_personal_aesthetic_cases_listed_only_when_approved(self):
+        import copy
+        games=load_json('data/games.json')
+        approved=[g for g in games if g['decision']=='listed']
+        self.assertEqual({'Concord','Dying Light 2 Stay Human'},{g['title_en'] for g in approved})
+        self.assertTrue(all(g['review_basis']=='personal_aesthetic' for g in approved))
+        text=list_section(games,'zh')
+        self.assertIn('Concord',text)
+        self.assertNotIn('7 Days to Die',text)
+        altered=copy.deepcopy(approved[0])
+        altered['issues'][0]['claim_status']='verified'
+        self.assertTrue(check([altered]))
+        altered=copy.deepcopy(approved[0])
+        altered['evidence']['promotional']=[]
+        self.assertTrue(check([altered]))
+
     def test_merge_preserves_first_seen(self):
         item={'id':'1','languages':['en'],'matched_queries':['q1'],'first_seen_at':'a','last_seen_at':'a'}
         upd={**item,'languages':['zh'],'matched_queries':['q2'],'first_seen_at':'b'}

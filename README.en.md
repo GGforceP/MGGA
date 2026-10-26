@@ -9,7 +9,7 @@
 
 ### At a glance
 
-Approved avoid list **0** · Remediated history **0** · Investigations **separate** · Unverified news leads **0**
+Approved avoid list **2** · Remediated history **0** · Investigations **separate** · Unverified news leads **0**
 
 **[A–Z index](#mgga-list)**　·　**[Separate research registry](research/README.en.md)**　·　**[Search games](https://GGforceP.github.io/MGGA/)** (requires GitHub Pages)　·　**[Latest discovery report](reports/latest.md)**　·　**[Submit a lead](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[中文版](README.md)**
 
@@ -17,11 +17,28 @@ Approved avoid list **0** · Remediated history **0** · Investigations **separa
 
 <a id="mgga-list"></a>
 
+### Conservative personal avoidance policy
+
+MGGA is the maintainer's **personal avoidance guide**. Specific verified conduct, documented player controversies, and explicitly selected **character appearance, visual styling, body proportions, costume, gender presentation in fictional designs or overall art direction** can all be reasons for an individual avoidance decision, with no need to prove a specific consultancy's involvement.
+
+Every published entry distinguishes **verified facts, documented debate, and personal aesthetic judgments**. Claims about intentional motives require separate evidence.
+
 ### Avoid list · A–Z
 
-Only source-documented, human-approved entries are shown here, alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
+Only documented, human-approved entries, including labelled personal aesthetic judgments, are shown here, alphabetized by **official English title**. Each game's following line links to the specific verified issue and evidence categories. A documented remedial decision is shown with ~~strikethrough~~, retaining its historical record rather than deleting it.
 
-> **No human-approved, source-documented titles are on the published list.** Investigations are kept in a separate registry.
+[C](#letter-c)　[D](#letter-d)
+
+<a id="letter-c"></a>
+### C
+
+- **[Concord](https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/)**（星鸣特攻） · 2024-08 · PC (Steam) / PlayStation 5
+  - **Personal aesthetic choice：** Personal aesthetic avoidance: widely criticized character visuals; any claim of deliberate uglification remains unverified · [Reviews](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E6%B5%8B%E8%AF%84%20(Reviews)/concord/README.md) · [Promotional](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20(Promotional%20Materials)/concord/README.md) · [Player evidence](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20(Player-Submitted%20Evidence)/concord/README.md) · [Remediation](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20(Remediation%20%26%20Timeline)/concord/README.md)
+<a id="letter-d"></a>
+### D
+
+- **[Dying Light 2 Stay Human](https://techland.net/news/meet-lawan-from-dying-light-2-stay-human)**（消逝的光芒2：人与仁之战） · 2022-02 · PC / PlayStation 4 / PlayStation 5 / Xbox One / Xbox Series X\|S
+  - **Personal aesthetic choice：** Personal aesthetic avoidance: Lawan's original design drew visual criticism; later optional appearance changes are documented separately · [Reviews](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E6%B5%8B%E8%AF%84%20(Reviews)/dying-light-2-stay-human/README.md) · [Promotional](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20(Promotional%20Materials)/dying-light-2-stay-human/README.md) · [Player evidence](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20(Player-Submitted%20Evidence)/dying-light-2-stay-human/README.md) · [Remediation](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20(Remediation%20%26%20Timeline)/dying-light-2-stay-human/README.md)
 
 
 ### Separate research and publication

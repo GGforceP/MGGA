@@ -56,9 +56,9 @@ def check(games, check_files=True):
             # Fail closed: publication requires a documented, dated human decision.
             basis=g.get('review_basis')
             approval=g.get('editorial_approval')
-            if basis not in {'verified_conduct','documented_player_controversy'}:
+            if basis not in {'verified_conduct','documented_player_controversy','personal_aesthetic'}:
                 errs.append(f'{key}: listed/remediated requires a recognized review_basis')
-            expected='disputed' if basis=='documented_player_controversy' else 'verified_link'
+            expected='disputed' if basis in {'documented_player_controversy','personal_aesthetic'} else 'verified_link'
             if g['investigation_status'] != expected:
                 errs.append(f'{key}: investigation_status must be {expected} for chosen review basis')
             if not isinstance(approval,dict) or approval.get('status')!='approved' or not approval.get('reviewed_by') or not approval.get('reviewed_at'):
@@ -75,6 +75,18 @@ def check(games, check_files=True):
                     errs.append(f'{key}: issue needs bilingual specific titles')
                 if basis=='documented_player_controversy' and issue.get('claim_status')!='disputed':
                     errs.append(f'{key}: community controversy must label the underlying claim disputed')
+            if basis=='personal_aesthetic':
+                pref=g.get('aesthetic_review')
+                if not isinstance(pref,dict) or pref.get('is_personal_preference') is not True or not pref.get('details_zh') or not pref.get('details_en'):
+                    errs.append(f'{key}: personal aesthetic listing requires bilingual preference rationale')
+                if not isinstance(approval,dict) or not approval.get('source'):
+                    errs.append(f'{key}: personal aesthetic listing requires explicit editorial instruction')
+                if any(issue.get('claim_status')!='opinion' for issue in g['issues']):
+                    errs.append(f'{key}: subjective aesthetic evaluations must be labelled opinion')
+                primary={e['id'] for e in ev['promotional'] if e.get('id') in verified_ids}
+                reaction={e['id'] for kind in ('reviews','player') for e in ev[kind] if e.get('id') in verified_ids}
+                if not primary or not reaction:
+                    errs.append(f'{key}: aesthetic listing requires official depictions and documented criticism')
             if basis=='documented_player_controversy':
                 # Three independently located records spanning >=2 sites;
                 # verifies the existence of a public controversy, not an allegation's truth.

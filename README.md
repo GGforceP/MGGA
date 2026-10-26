@@ -9,7 +9,7 @@
 
 ### 项目概览
 
-已核准避购 **0** · 历史补救 **0** · 待调查资料 **独立管理** · 未核实新闻线索 **0**
+已核准避购 **2** · 历史补救 **0** · 待调查资料 **独立管理** · 未核实新闻线索 **0**
 
 **[A–Z 正式列表](#mgga-list)**　·　**[独立调查登记册](research/README.md)**　·　**[游戏搜索](https://GGforceP.github.io/MGGA/)**（需启用 GitHub Pages）　·　**[最新采集报告](reports/latest.md)**　·　**[提交线索](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[英文版](README.en.md)**
 
@@ -17,11 +17,28 @@
 
 <a id="mgga-list"></a>
 
+### 收录原则：保护个人审美选择
+
+MGGA 是维护者的**个人避购参考**。除经核实的具体合作或公开言论外，**有来源的玩家集中争议、维护者不接受的角色外观/服装/身材比例/性别呈现及整体美术方向**都可以独立成为避购原因，不要求先找到某家咨询公司的合作证明。
+
+上榜理由将分别标为 **事实 / 玩家争议 / 个人审美判断**；“故意丑化”“蓄意教育玩家”等创作者主观动机，除非有直接来源，否则只能标注未经证实。
+
 ### 正式避购名单 · A–Z
 
-仅收录**已取得充分证据并经过人工审核同意公开**的条目，按官方英文游戏名首字母排序；每款游戏下一行是具体事项和证据入口。发行平台及时间不属于违规证据。已核实整改的记录采用 ~~删除线~~ 保留历史，不从档案中删除。
+仅收录**有材料可复核且获维护者明确批准**的条目（包括主观审美避购），按官方英文游戏名首字母排序；每款游戏下一行是具体事项和证据入口。发行平台及时间不属于违规证据。已核实整改的记录采用 ~~删除线~~ 保留历史，不从档案中删除。
 
-> **当前没有经过证据核实及维护者审核批准的正式条目。** 待调查的游戏仅在独立调查登记册记录。
+[C](#letter-c)　[D](#letter-d)
+
+<a id="letter-c"></a>
+### C
+
+- **[Concord](https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/)**（星鸣特攻） · 2024年8月 · PC (Steam) / PlayStation 5
+  - **个人审美避购理由：** 个人审美避购：角色视觉设计存在大量负面玩家讨论，维护者不接受其造型风格；“故意丑化”等创作动机未证实 · [测评](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E6%B5%8B%E8%AF%84%20(Reviews)/concord/README.md) · [宣发材料](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20(Promotional%20Materials)/concord/README.md) · [玩家证据](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20(Player-Submitted%20Evidence)/concord/README.md) · [补救时间线](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20(Remediation%20%26%20Timeline)/concord/README.md)
+<a id="letter-d"></a>
+### D
+
+- **[Dying Light 2 Stay Human](https://techland.net/news/meet-lawan-from-dying-light-2-stay-human)**（消逝的光芒2：人与仁之战） · 2022年2月 · PC / PlayStation 4 / PlayStation 5 / Xbox One / Xbox Series X\|S
+  - **个人审美避购理由：** 个人审美避购：拉万（Lawan）原始角色造型受到外观批评，维护者不接受该设计；后续皮肤变化另行记录 · [测评](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E6%B5%8B%E8%AF%84%20(Reviews)/dying-light-2-stay-human/README.md) · [宣发材料](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20(Promotional%20Materials)/dying-light-2-stay-human/README.md) · [玩家证据](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%AF%81%E6%8D%AE%20(Evidence)/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20(Player-Submitted%20Evidence)/dying-light-2-stay-human/README.md) · [补救时间线](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20(Supplementary%20Materials)/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20(Remediation%20%26%20Timeline)/dying-light-2-stay-human/README.md)
 
 
 ### 调查资料与正式名单隔离

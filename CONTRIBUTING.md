@@ -7,6 +7,7 @@
 3. 运行 `python scripts/scaffold.py`，为这款游戏创建四类证据子目录，再使用 `templates/EVIDENCE_RECORD.md` 记录命题，把证据 Markdown、**有权存储**的截图或文件放入对应目录。
 4. 对可核实的证据记录 `id`、`file`、`source_url`、`checked_at`、`verification_status=verified`，写明确切命题和反证检查；把证据 id 关联到 `issues[].evidence_ids`。
 5. **默认留在 [独立调查登记册](research/README.md)，不得直接出现在正式 README。** 经过复核后，选择 `review_basis=verified_conduct`（已证实具体事项、`investigation_status=verified_link`）或 `review_basis=documented_player_controversy`（三个以上经核验独立玩家来源、两个以上域名，`investigation_status=disputed`，并明确标明 `issues[].claim_status=disputed`）。所有条目都必须有经过核验的 `issues[].evidence_ids`。
+6. **主观审美避购**：维护者明确指定作品并提供可核验的官方角色展示与独立评论时，可以设 `review_basis=personal_aesthetic`、`investigation_status=disputed`、`issues[].claim_status=opinion`。源链接证明作品视觉内容及讨论存在，而不是证明审美客观或存在故意政治动机。审核决定需有明确来源与日期。
 6. **仅在维护者明确批准后** 填写 `editorial_approval: {"status":"approved","reviewed_by":"maintainer","reviewed_at":"YYYY-MM-DD"}` 并设 `decision=listed`。自动采集程序永远无权设置此字段。大量玩家争议只能证明争议存在，不等于争议中的指控属实。
 7. 整改成功，填写 `remediation` 的 `status=completed`、ISO 日期、中英说明与官方可访问 URL，并人工把 `decision=remediated`。如只是主张错误，公开更正而非继续展示为事实。
 8. `python scripts/validate.py && python scripts/render.py && python -m unittest discover -s tests -v`，PR 中附相关材料。
