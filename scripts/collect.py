@@ -25,7 +25,7 @@ def clean_html(value):
     return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]*>', ' ',value or ''))).strip()[:600]
 
 def news_url(config):
-    params={"q":config['query']+' when:2d',"hl":config['hl'],"gl":config['gl'],"ceid":config['ceid']}
+    params={"q":config['query']+f" when:{int(config.get('lookback_days',2))}d","hl":config['hl'],"gl":config['gl'],"ceid":config['ceid']}
     return 'https://news.google.com/rss/search?'+urlencode(params)
 
 def read_feed(xml_bytes,config,seen_at):
@@ -86,10 +86,42 @@ def _fetch(url):
     with urlopen(req,timeout=16) as r:
         return r.read(1_500_000)
 
+def rotating_game_queries(games, now, batch_size=20):
+    """Rotate game-specific discovery without implying any named game is culpable.
+
+    Covers all catalog entries once per five-day cycle at 100 entries;
+    alternates language each cycle (English and Chinese in ten days).
+    A 12-day RSS lookback reduces gaps caused by rotation and queue delays.
+    """
+    if not games: return []
+    today=now.astimezone(TZ).date().toordinal()
+    groups=(len(games)+batch_size-1)//batch_size
+    group_idx=today % groups
+    language='zh' if (today//groups)%2 else 'en'
+    chosen=sorted(games,key=lambda g:g['title_en'].casefold())[group_idx*batch_size:(group_idx+1)*batch_size]
+    results=[]
+    for game in chosen:
+        name=game['title_en']
+        cn=game.get('title_zh') or name
+        if language=='zh':
+            q=f'"{name}" (争议 OR 宣发 OR 官方回应 OR 多元化 OR 道歉)'
+            cfg={'hl':'zh-CN','gl':'CN','ceid':'CN:zh-Hans'}
+        else:
+            q=f'"{name}" ("Sweet Baby Inc" OR DEI OR controversy OR apology OR developer statement)'
+            cfg={'hl':'en-US','gl':'US','ceid':'US:en'}
+        results.append({
+            'id':'game-'+game['game_id']+'-'+language,
+            'language':language,'focus':'game_issue','query':q,
+            'lookback_days':12,**cfg
+        })
+    return results
+
 def main():
     ap=argparse.ArgumentParser();ap.add_argument('--output',default='out/scan.json');args=ap.parse_args()
+    now=datetime.now(timezone.utc)
     configs=load_json('data/monitor_queries.json')
-    scan=collect(configs)
+    configs+=rotating_game_queries(load_json('data/games.json'),now)
+    scan=collect(configs,now=now)
     p=ROOT/args.output;p.parent.mkdir(parents=True,exist_ok=True)
     p.write_text(json.dumps(scan,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
     print(f"MGGA discovery {scan['collected_on']}: {len(scan['leads'])} leads; {len(scan['failed_queries'])}/{len(configs)} feeds failed.")

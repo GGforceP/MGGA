@@ -5,7 +5,7 @@ from datetime import datetime, timezone
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/'scripts'))
 from common import ROOT,load_json,rel_url
-from collect import collect
+from collect import collect,rotating_game_queries,news_url
 from publish import merge,make_report,publish
 from validate import check
 from render import list_section
@@ -18,6 +18,13 @@ RSS=b'''<?xml version="1.0" encoding="UTF-8"?>
 
 class MGGATest(unittest.TestCase):
     def test_curated_data(self): self.assertEqual([],check(load_json('data/games.json')))
+    def test_game_rotation_targets_20(self):
+        games=load_json('data/games.json')
+        q=rotating_game_queries(games,datetime(2026,10,26,tzinfo=timezone.utc))
+        self.assertEqual(20,len(q))
+        self.assertEqual(20,len({x['id'] for x in q}))
+        self.assertTrue(all('when:12d' in news_url(x) for x in q))
+        self.assertTrue(all(x['focus']=='game_issue' for x in q))
     def test_collect_dedup_does_not_verify(self):
         cfg=[{'id':'a','language':'en','hl':'en-US','gl':'US','ceid':'US:en','query':'x'},
              {'id':'b','language':'zh','hl':'zh-CN','gl':'CN','ceid':'CN:zh-Hans','query':'x'}]

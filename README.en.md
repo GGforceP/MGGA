@@ -317,6 +317,8 @@ Alphabetized by **official English title**. Each game's following line links to 
 
 Last successful publication: **Not yet automatically published**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
 
+**Monitoring the 100-title research catalog:** the collector rotates through 20 games per day, alternating Chinese and English each five-day cycle. Each title is searched in both languages over approximately ten days with a twelve-day lookback. Search hits remain unverified leads.
+
 ### Editorial policy
 
 1. Document **specific publicly verifiable conduct**, not assumptions derived from identity, narrative elements, keywords or unproven partnership rumors.

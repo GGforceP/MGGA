@@ -1,23 +1,15 @@
 # MGGA 首次部署（目标：GGforceP/MGGA）
 
-## 1. 建立空仓库
+## 1. 当前仓库已推送（2026-10-26）
 
-在已登录 `GGforceP` 的浏览器打开 <https://github.com/new>，名称填写 `MGGA`，建议设为 `Public`，**不要勾选 Initialize with README、.gitignore 或 License**（本模板已含 README/.gitignore）。
+GitHub 仓库已建立：[GGforceP/MGGA](https://github.com/GGforceP/MGGA)。首次100款调查档案和证据分类目录现已上传，无需重新创建空仓库，也不需要强制推送。
 
-## 2. Windows PowerShell 一次上传
+## 2. 首批100款档案
 
-先在本地安装 Git for Windows，将压缩包解压到任意位置，然后进入解压后的 `MGGA` 文件夹打开 PowerShell：
-
-```powershell
-git init
-git branch -M main
-git remote add origin https://github.com/GGforceP/MGGA.git
-git add .
-git commit -m "Initialize MGGA bilingual evidence archive"
-git push -u origin main
-```
-
-如已有同名仓库，先检查仓库文件，勿直接强制覆盖。以上命令要求 Git 的身份凭证已正确登录。
+- [中文主页](README.md) / [English](README.en.md)
+- [首批调查报告](reports/initial-100-2026-10-26.md)
+- [100条游戏主数据](data/games.json) 与 [入库来源快照](data/intake-2026-10-26.json)
+- [调查档案目录](research/cases/)
 
 ## 3. 启用与验证自动任务
 
