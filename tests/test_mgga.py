@@ -88,6 +88,22 @@ class MGGATest(unittest.TestCase):
         g['evidence']['player']=g['evidence']['player'][:2]
         self.assertTrue(check([g]))
 
+    def test_full_render_never_leaks_unreviewed_names(self):
+        import json
+        from render import main as render_main
+        render_main()
+        public_cn=(ROOT/'README.md').read_text(encoding='utf-8')
+        public_en=(ROOT/'README.en.md').read_text(encoding='utf-8')
+        self.assertIn('独立调查登记册',public_cn)
+        self.assertNotIn('7 Days to Die',public_cn)
+        self.assertNotIn('7 Days to Die',public_en)
+        self.assertNotIn('首批100款热门游戏',public_cn)
+        self.assertIn('7 Days to Die',(ROOT/'research'/'README.md').read_text(encoding='utf-8'))
+        self.assertIn('7 Days to Die',(ROOT/'research'/'README.en.md').read_text(encoding='utf-8'))
+        self.assertEqual([],json.loads((ROOT/'docs'/'search-index.json').read_text(encoding='utf-8')))
+        self.assertTrue(public_cn.strip().endswith('</p>'))
+        self.assertIn('Powered by Codex',public_en)
+
     def test_no_listed_examples(self):
         text=list_section(load_json('data/games.json'),'zh')
         self.assertIn('暂无',text)

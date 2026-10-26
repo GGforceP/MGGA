@@ -35,8 +35,8 @@ def list_section(games,lang):
         initial=g['title_en'].lstrip().upper()[:1]
         groups[initial if 'A'<=initial<='Z' else '#'].append(g)
     if not listed:
-        return ('> **暂无经过完整核验并完成裁决的条目。** 搜索线索不自动成为指控或黑名单。\n'
-                if lang=='zh' else '> **No cases have passed evidence verification and editorial listing review yet.** Search leads are not allegations.\n')
+        return ('> **当前没有经过证据核实及维护者审核批准的正式条目。** 待调查的游戏仅在独立调查登记册记录。\n'
+                if lang=='zh' else '> **No human-approved, source-documented titles are on the published list.** Investigations are kept in a separate registry.\n')
     letters=sorted(groups,key=lambda s:(s=='#',s))
     nav='　'.join(f'[{x}](#letter-{x.lower() if x!="#" else "other"})' for x in letters)
     chunks=[nav,'']
@@ -88,12 +88,11 @@ def research_section(games,lang):
 def render_one(template_name,out_name,lang,games,state):
     src=(ROOT/'templates'/template_name).read_text(encoding='utf-8')
     listings=list_section(games,lang)
-    catalog_count=len(games)
-    listed=sum(g['decision']=='listed' for g in games)
-    remed=sum(g['decision']=='remediated' for g in games)
+    listed=sum(g['decision']=='listed' and not check([g]) for g in games)
+    remed=sum(g['decision']=='remediated' and not check([g]) for g in games)
     lead_count=state.get('total_leads',0)
-    status=(f'已建档 **{catalog_count}** · 当前避购 **{listed}** · 历史补救 **{remed}** · 待核查新闻线索 **{lead_count}**'
-            if lang=='zh' else f'Catalog **{catalog_count}** · Active avoid list **{listed}** · Remediated archives **{remed}** · Unverified news leads **{lead_count}**')
+    status=(f'已核准避购 **{listed}** · 历史补救 **{remed}** · 待调查资料 **独立管理** · 未核实新闻线索 **{lead_count}**'
+            if lang=='zh' else f'Approved avoid list **{listed}** · Remediated history **{remed}** · Investigations **separate** · Unverified news leads **{lead_count}**')
     updated=state.get('last_published_at') or ('尚未自动发布' if lang=='zh' else 'Not published yet')
     src=src.replace('<!-- MGGA-COUNTS -->',status).replace('<!-- MGGA-INDEX -->',listings).replace('<!-- MGGA-UPDATE -->',updated)
     (ROOT/out_name).write_text(src,encoding='utf-8')
