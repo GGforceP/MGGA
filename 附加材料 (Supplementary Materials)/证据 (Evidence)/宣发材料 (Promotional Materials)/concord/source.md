@@ -1,6 +1,6 @@
 # Concord — 原始官方角色素材 / Official character depiction
 
-- 原始链接 / Source: undefined
+- 原始链接 / Source: https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/
 - 整理与核验日期: 2026-10-26
 - 已核查范围: 官方原始作品展示可以证实游戏中角色的视觉呈现，但不能证明开发商为何做出该美术选择。
 - 未经证实: 制作团队故意丑化、外部政治组织介入或某种动机；本档案不作上述事实主张。

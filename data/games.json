@@ -735,7 +735,8 @@
           "id": "concord-reviews",
           "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/测评 (Reviews)/concord/source.md",
           "verification_status": "verified",
-          "checked_at": "2026-10-26"
+          "checked_at": "2026-10-26",
+          "source_url": "https://www.dexerto.com/gaming/concord-slammed-over-ugliest-character-designs-ever-2754244/"
         }
       ],
       "promotional": [
@@ -743,7 +744,8 @@
           "id": "concord-promotional",
           "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/宣发材料 (Promotional Materials)/concord/source.md",
           "verification_status": "verified",
-          "checked_at": "2026-10-26"
+          "checked_at": "2026-10-26",
+          "source_url": "https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/"
         }
       ],
       "player": [
@@ -1151,7 +1153,8 @@
           "id": "dying-light-2-stay-human-reviews",
           "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/测评 (Reviews)/dying-light-2-stay-human/source.md",
           "verification_status": "verified",
-          "checked_at": "2026-10-26"
+          "checked_at": "2026-10-26",
+          "source_url": "https://www.thepaper.cn/newsDetail_forward_19694512"
         }
       ],
       "promotional": [
@@ -1159,7 +1162,8 @@
           "id": "dying-light-2-stay-human-promotional",
           "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/宣发材料 (Promotional Materials)/dying-light-2-stay-human/source.md",
           "verification_status": "verified",
-          "checked_at": "2026-10-26"
+          "checked_at": "2026-10-26",
+          "source_url": "https://techland.net/news/meet-lawan-from-dying-light-2-stay-human"
         }
       ],
       "player": [
