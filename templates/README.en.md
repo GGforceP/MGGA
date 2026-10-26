@@ -59,3 +59,6 @@ Last successful publication: **<!-- MGGA-UPDATE -->**. Scheduled GitHub Actions 
 4. Humans edit `data/games.json` decisions; automated collectors update `data/leads.json` only. Lack of findings is not proof of no involvement.
 
 Further reading: [Evidence policy](EVIDENCE_POLICY.md) · [Contributing](CONTRIBUTING.md) · [Coverage roadmap](ROADMAP.md) · [Repository tree](PROJECT_STRUCTURE.md).
+---
+
+<p align="center"><sub>Powered by Codex：Fully automatically run set.</sub></p>

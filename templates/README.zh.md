@@ -59,3 +59,6 @@
 4. `data/games.json` 的 `decision` 是人工维护；自动采集只更新 `data/leads.json`。未检索到线索不等于证实不存在关联。
 
 相关文档：[证据标准](EVIDENCE_POLICY.md) · [维护说明](CONTRIBUTING.md) · [全球覆盖路线图](ROADMAP.md) · [完整目录](PROJECT_STRUCTURE.md)。
+---
+
+<p align="center"><sub>Powered by Codex：Fully automatically run set.</sub></p>
