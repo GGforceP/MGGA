@@ -1,5 +1,6 @@
 """Validate curated records before publication. No allegations from unreviewed leads."""
 import sys
+import re
 from datetime import date
 from urllib.parse import urlparse
 from common import ROOT, CATEGORIES, evidence_path, load_json
@@ -27,7 +28,11 @@ def check(games, check_files=True):
         seen_ids.add(gid)
         if not isinstance(gid,str) or not gid or any(ch not in 'abcdefghijklmnopqrstuvwxyz0123456789-' for ch in gid):
             errs.append(f'{key}: game_id must be lower-case kebab-case ascii')
-        try: date.fromisoformat(g['release_date'])
+        try:
+            d=g['release_date']
+            if not isinstance(d,str) or not re.fullmatch(r'\d{4}(?:-\d{2}(?:-\d{2})?)?',d):
+                raise ValueError('Bad precision')
+            date.fromisoformat(d if len(d)==10 else (d+'-01' if len(d)==7 else d+'-01-01'))
         except (TypeError, ValueError): errs.append(f'{key}: invalid date')
         if not isinstance(g['platforms'],list) or not g['platforms']: errs.append(f'{key}: platforms needed')
         if not valid_url(g['official_url']): errs.append(f'{key}: official_url must be https URL')

@@ -33,7 +33,7 @@ let prev='';for(const g of visible){const initial=g.en.trim().charAt(0).toUpperC
 const card=add(host,'article','entry '+g.decision);const line=add(card,'div','line');const h=add(line,'h2','name');h.title=g.en+' / '+g.zh;h.textContent=g.en;add(line,'span','cn',g.zh);
 add(card,'div','meta',g.date+' · '+g.platforms.join(' / '));const tags=add(card,'div','tags');add(tags,'span','tag',labels[g.decision]||g.decision);if(g.aliases.length)add(tags,'span','tag','别名 / Aliases: '+g.aliases.join('、'));
 const issues=g.issues_zh.length?g.issues_zh.join('；'):'未验证具体事项 / No verified issue';add(card,'p','issue',issues);
-const nav=add(card,'div','links');for(const [key,text]of Object.entries(links)){const a=add(nav,'a','',text);a.href=g.evidence[key];a.target='_blank';a.rel='noopener noreferrer'}const official=add(nav,'a','','官网 / Official');official.href=g.official;official.target='_blank';official.rel='noopener noreferrer';
+const nav=add(card,'div','links');for(const [key,text]of Object.entries(links)){const a=add(nav,'a','',text);a.href=g.evidence[key];a.target='_blank';a.rel='noopener noreferrer'}const caseA=add(nav,'a','','调查档案 / Case file');caseA.href=g.case;caseA.target='_blank';caseA.rel='noopener noreferrer';const official=add(nav,'a','','商店/官网 / Store or site');official.href=g.official;official.target='_blank';official.rel='noopener noreferrer';
 }}
 Promise.resolve().then(()=>fetch('./search-index.json',{cache:'no-store'})).then(r=>{if(!r.ok)throw Error('HTTP '+r.status);return r.json()}).then(data=>{items=data;draw()}).catch(err=>{$('summary').textContent='数据尚不可用 / Search data unavailable: '+err.message;});
 for(const id of ['q','decision','platform'])$(id).addEventListener(id==='q'?'input':'change',draw);

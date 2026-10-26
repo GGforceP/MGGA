@@ -17,7 +17,7 @@ def row(g,lang):
     zh=lang=='zh'
     title=f"[{md_safe(g['title_en'])}]({g['official_url']})"
     if g['decision']=='remediated': title=f'~~{title}~~'
-    date=(f"{g['release_date'][:4]}年{int(g['release_date'][5:7])}月" if zh else g['release_date'][:7])
+    date=(f"{g['release_date'][:4]}年{int(g['release_date'][5:7])}月" if zh and len(g['release_date'])>=7 else (g['release_date']+'年' if zh else g['release_date']))
     platforms=' / '.join(md_safe(x) for x in g['platforms'])
     cn=md_safe(g['title_zh'])
     primary=f'**{title}**（{cn}） · {date} · {platforms}' if zh else f'**{title}** ({cn}) · {date} · {platforms}'
@@ -46,6 +46,24 @@ def list_section(games,lang):
         chunks.extend(row(g,lang) for g in groups[letter])
     return '\n'.join(chunks)
 
+def catalog_section(games,lang):
+    zh=lang=='zh'
+    selected=sorted((g for g in games if g['decision'] in {'pending','not_listed'}),key=lambda x:x['title_en'].casefold())
+    chars=sorted(set(g['title_en'][0].upper() for g in selected))
+    lines=[' · '.join(f'[{c}](#catalog-{c.lower()})' for c in chars),'']
+    prev=''
+    for g in selected:
+        c=g['title_en'][0].upper()
+        if c!=prev: lines.extend([f'<a id="catalog-{c.lower()}"></a>',f'#### {c}','']);prev=c
+        date=g['release_date']+('年' if zh and len(g['release_date'])==4 else '')
+        platform=' / '.join(md_safe(p) for p in g['platforms'])
+        lines.append(f'- **{md_safe(g["title_en"])}**（{md_safe(g["title_zh"])}） · {date} · {platform} · [{"调查档案" if zh else "Case file"}](research/cases/{g["game_id"]}.md)')
+        issues='；'.join(md_safe(x['title_zh'] if zh else x['title_en']) for x in g['issues'])
+        if not issues: issues='尚未核实具体争议，不构成黑名单条目' if zh else 'No verified misconduct finding; not a blacklist entry'
+        links=' · '.join(f'[{cn if zh else en}]({rel_url(evidence_path(kind,g["game_id"]))})' for kind,cn,en in CATEGORIES)
+        lines.append(f'  - **{"进度" if zh else "Review"}：** {issues} · {links}')
+    return '\n'.join(lines)
+
 def render_one(template_name,out_name,lang,games,state):
     src=(ROOT/'templates'/template_name).read_text(encoding='utf-8')
     listings=list_section(games,lang)
@@ -56,13 +74,8 @@ def render_one(template_name,out_name,lang,games,state):
     status=(f'已建档 **{catalog_count}** · 当前避购 **{listed}** · 历史补救 **{remed}** · 待核查新闻线索 **{lead_count}**'
             if lang=='zh' else f'Catalog **{catalog_count}** · Active avoid list **{listed}** · Remediated archives **{remed}** · Unverified news leads **{lead_count}**')
     updated=state.get('last_published_at') or ('尚未自动发布' if lang=='zh' else 'Not published yet')
-    example=next((g for g in games if g['decision']=='pending' and not g['issues']),None)
-    if example:
-        label=('**信息登记示例（不代表黑名单指控）**' if lang=='zh' else '**Catalog example (NOT a blacklist allegation)**')
-        links=' · '.join(f'[{c if lang=="zh" else e}]({rel_url(evidence_path(kind,example["game_id"]))})' for kind,c,e in CATEGORIES)
-        sample=f'{label}\n\n**{md_safe(example["title_en"])}**（{md_safe(example["title_zh"])}） · {example["release_date"]} · {" / ".join(md_safe(p) for p in example["platforms"])}\n\n- **{"参与活动" if lang=="zh" else "Documented issue"}：** {"暂无经证实事项；不列入避购清单" if lang=="zh" else "None verified; not included in avoid list"} · {links}\n'
-    else: sample=''
-    src=src.replace('<!-- MGGA-COUNTS -->',status).replace('<!-- MGGA-INDEX -->',listings).replace('<!-- MGGA-SAMPLE -->',sample).replace('<!-- MGGA-UPDATE -->',updated)
+    research_catalog=catalog_section(games,lang)
+    src=src.replace('<!-- MGGA-COUNTS -->',status).replace('<!-- MGGA-INDEX -->',listings).replace('<!-- MGGA-CATALOG -->',research_catalog).replace('<!-- MGGA-UPDATE -->',updated)
     (ROOT/out_name).write_text(src,encoding='utf-8')
 
 def main():
@@ -82,7 +95,7 @@ def main():
             'issues_zh':[x['title_zh'] for x in g['issues']],
             'issues_en':[x['title_en'] for x in g['issues']],
             'evidence':{kind: '../'+rel_url(evidence_path(kind,g['game_id'])) for kind,_,_ in CATEGORIES},
-            'official':g['official_url'],
+            'official':g['official_url'], 'case':'https://github.com/GGforceP/MGGA/blob/main/research/cases/'+g['game_id']+'.md',
         })
     # Site links point to GitHub repository files, not non-existent relative Pages assets.
     for item in data:

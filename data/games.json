@@ -1,20 +1,3329 @@
 [
   {
-    "game_id": "ace-combat-8-wings-of-theve",
-    "title_en": "ACE COMBAT 8: WINGS OF THEVE",
-    "title_zh": "空战奇兵8 希孚之翼",
-    "aliases_zh": ["皇牌空战8：希孚之翼"],
-    "release_date": "2026-10-02",
-    "platforms": ["PC (Steam)", "Xbox Series X|S", "PlayStation 5"],
-    "official_url": "https://www.bandainamcoent.com/games/ace-combat-8",
-    "catalog_sources": [
-      "https://www.bandainamcoent.asia/tw-sc/news/20261002-01",
-      "https://acecombat.jp/en/product/"
+    "game_id": "7-days-to-die",
+    "title_en": "7 Days to Die",
+    "title_zh": "七日杀",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
     ],
+    "official_url": "https://store.steampowered.com/search/?term=7%20Days%20to%20Die",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 75,
+    "name_review_status": "working_translation_not_yet_approved",
     "investigation_status": "unreviewed",
     "decision": "pending",
     "issues": [],
-    "evidence": {"reviews": [], "promotional": [], "player": []},
-    "remediation": {"status": "none", "date": null, "summary_zh": "", "summary_en": "", "sources": []}
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "age-of-empires-ii-definitive-edition",
+    "title_en": "Age of Empires II: Definitive Edition",
+    "title_zh": "帝国时代2：决定版",
+    "aliases_zh": [],
+    "release_date": "2019",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Age%20of%20Empires%20II%3A%20Definitive%20Edition",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 85,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "aion-2",
+    "title_en": "AION 2",
+    "title_zh": "永恒之塔2",
+    "aliases_zh": [],
+    "release_date": "2026-10",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=AION%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 5,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "alan-wake-2",
+    "title_en": "Alan Wake 2",
+    "title_zh": "心灵杀手2",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC (Epic)",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.alanwake.com/",
+    "catalog_sources": [
+      "https://www.alanwake.com/",
+      "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+      "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "aniimo",
+    "title_en": "Aniimo",
+    "title_zh": "Aniimo",
+    "aliases_zh": [],
+    "release_date": "2026-09",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Aniimo",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 37,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "apex-legends",
+    "title_en": "Apex Legends™",
+    "title_zh": "Apex英雄",
+    "aliases_zh": [],
+    "release_date": "2019",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Apex%20Legends%E2%84%A2",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 10,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "arc-raiders",
+    "title_en": "ARC Raiders",
+    "title_zh": "ARC Raiders",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=ARC%20Raiders",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 27,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "arena-breakout-infinite",
+    "title_en": "Arena Breakout: Infinite",
+    "title_zh": "暗区突围：无限",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Arena%20Breakout%3A%20Infinite",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 72,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "ark-survival-ascended",
+    "title_en": "ARK: Survival Ascended",
+    "title_zh": "方舟：生存飞升",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=ARK%3A%20Survival%20Ascended",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 74,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "ark-survival-evolved",
+    "title_en": "ARK: Survival Evolved",
+    "title_zh": "方舟：生存进化",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=ARK%3A%20Survival%20Evolved",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 91,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "assassin-s-creed-shadows",
+    "title_en": "Assassin's Creed Shadows",
+    "title_zh": "刺客信条：影",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.ubisoft.com/en-us/game/assassins-creed/shadows",
+    "catalog_sources": [
+      "https://www.ubisoft.com/en-us/game/assassins-creed/shadows",
+      "https://news.ubisoft.com/en-au/article/7dWPCtVQU7udC0KkPFOyXh/assassins-creed-shadows-an-update-for-the-japanese-community"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [
+      {
+        "title_zh": "育碧2024年就部分宣发材料造成日本玩家关切公开致歉",
+        "title_en": "2024 Ubisoft apology concerning some promotional materials",
+        "evidence_ids": [
+          "ubi-2024-07"
+        ]
+      }
+    ],
+    "evidence": {
+      "reviews": [],
+      "promotional": [
+        {
+          "id": "ubi-2024-07",
+          "verification_status": "verified",
+          "source_url": "https://news.ubisoft.com/en-au/article/7dWPCtVQU7udC0KkPFOyXh/assassins-creed-shadows-an-update-for-the-japanese-community",
+          "file": "附加材料 (Supplementary Materials)/证据 (Evidence)/宣发材料 (Promotional Materials)/assassin-s-creed-shadows/ubisoft-response-2024-07.md",
+          "checked_at": "2026-10-26"
+        }
+      ],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "assassin-s-creed-valhalla",
+    "title_en": "Assassin's Creed Valhalla",
+    "title_zh": "刺客信条：英灵殿",
+    "aliases_zh": [],
+    "release_date": "2020",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox"
+    ],
+    "official_url": "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla",
+    "catalog_sources": [
+      "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla",
+      "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+      "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "baldur-s-gate-3",
+    "title_en": "Baldur's Gate 3",
+    "title_zh": "博德之门3",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Baldur's%20Gate%203",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 52,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "battlefield-6",
+    "title_en": "Battlefield™ 6",
+    "title_zh": "战地风云6",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Battlefield%E2%84%A2%206",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 64,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "beamng-drive",
+    "title_en": "BeamNG.drive",
+    "title_zh": "BeamNG.drive",
+    "aliases_zh": [],
+    "release_date": "2015",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=BeamNG.drive",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 62,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "black-desert",
+    "title_en": "Black Desert",
+    "title_zh": "黑色沙漠",
+    "aliases_zh": [],
+    "release_date": "2015",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Black%20Desert",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 80,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "black-myth-wukong",
+    "title_en": "Black Myth: Wukong",
+    "title_zh": "黑神话：悟空",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.heishenhua.com/",
+    "catalog_sources": [
+      "https://www.heishenhua.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "bongo-cat",
+    "title_en": "Bongo Cat",
+    "title_zh": "Bongo Cat",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Bongo%20Cat",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 4,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "call-of-duty",
+    "title_en": "Call of Duty®",
+    "title_zh": "使命召唤（Steam 启动器）",
+    "aliases_zh": [],
+    "release_date": "2022",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Call%20of%20Duty%C2%AE",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 6,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "clair-obscur-expedition-33",
+    "title_en": "Clair Obscur: Expedition 33",
+    "title_zh": "光与影：33号远征队",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.expedition33.com/",
+    "catalog_sources": [
+      "https://www.expedition33.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "counter-strike-2",
+    "title_en": "Counter-Strike 2",
+    "title_zh": "反恐精英2",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Counter-Strike%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 2,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "crusader-kings-iii",
+    "title_en": "Crusader Kings III",
+    "title_zh": "十字军之王3",
+    "aliases_zh": [],
+    "release_date": "2020",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Crusader%20Kings%20III",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 83,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "cyberpunk-2077",
+    "title_en": "Cyberpunk 2077",
+    "title_zh": "赛博朋克2077",
+    "aliases_zh": [],
+    "release_date": "2020",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Cyberpunk%202077",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 8,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "dayz",
+    "title_en": "DayZ",
+    "title_zh": "DayZ",
+    "aliases_zh": [],
+    "release_date": "2018",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=DayZ",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 40,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "dead-by-daylight",
+    "title_en": "Dead by Daylight",
+    "title_zh": "黎明杀机",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Dead%20by%20Daylight",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 30,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "delta-force",
+    "title_en": "Delta Force",
+    "title_zh": "三角洲行动",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Delta%20Force",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 16,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "destiny-2",
+    "title_en": "Destiny 2",
+    "title_zh": "命运2",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Destiny%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 81,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "don-t-starve-together",
+    "title_en": "Don't Starve Together",
+    "title_zh": "饥荒：联机版",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Don't%20Starve%20Together",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 28,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "dota-2",
+    "title_en": "Dota 2",
+    "title_zh": "刀塔2",
+    "aliases_zh": [],
+    "release_date": "2013",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Dota%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 1,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "dragon-age-the-veilguard",
+    "title_en": "Dragon Age: The Veilguard",
+    "title_zh": "龙腾世纪：影障守护者",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.ea.com/games/dragon-age/dragon-age-the-veilguard",
+    "catalog_sources": [
+      "https://www.ea.com/games/dragon-age/dragon-age-the-veilguard"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "ea-sports-fc-26",
+    "title_en": "EA SPORTS FC™ 26",
+    "title_zh": "EA SPORTS FC 26",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=EA%20SPORTS%20FC%E2%84%A2%2026",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 78,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "ea-sports-fc-27",
+    "title_en": "EA SPORTS FC™ 27",
+    "title_zh": "EA SPORTS FC 27",
+    "aliases_zh": [],
+    "release_date": "2026-09",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=EA%20SPORTS%20FC%E2%84%A2%2027",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 45,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "elden-ring",
+    "title_en": "ELDEN RING",
+    "title_zh": "艾尔登法环",
+    "aliases_zh": [],
+    "release_date": "2022",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=ELDEN%20RING",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 71,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "enshrouded",
+    "title_en": "Enshrouded",
+    "title_zh": "雾锁王国",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Enshrouded",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 23,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "escape-from-tarkov",
+    "title_en": "Escape from Tarkov",
+    "title_zh": "逃离塔科夫",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Escape%20from%20Tarkov",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 54,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "euro-truck-simulator-2",
+    "title_en": "Euro Truck Simulator 2",
+    "title_zh": "欧洲卡车模拟2",
+    "aliases_zh": [],
+    "release_date": "2012",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Euro%20Truck%20Simulator%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 53,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "factorio",
+    "title_en": "Factorio",
+    "title_zh": "异星工厂",
+    "aliases_zh": [],
+    "release_date": "2020",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Factorio",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 89,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "farming-simulator-25",
+    "title_en": "Farming Simulator 25",
+    "title_zh": "模拟农场25",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Farming%20Simulator%2025",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 57,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "final-fantasy-resonance",
+    "title_en": "FINAL FANTASY RESONANCE",
+    "title_zh": "FINAL FANTASY RESONANCE",
+    "aliases_zh": [],
+    "release_date": "2026-10",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=FINAL%20FANTASY%20RESONANCE",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 55,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "final-fantasy-vii-rebirth",
+    "title_en": "FINAL FANTASY VII REBIRTH",
+    "title_zh": "最终幻想7：重生",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "official_url": "https://ffvii.square-enix-games.com/en-us/games/rebirth",
+    "catalog_sources": [
+      "https://ffvii.square-enix-games.com/en-us/games/rebirth"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "football-manager-26",
+    "title_en": "Football Manager 26",
+    "title_zh": "足球经理26",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Football%20Manager%2026",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 65,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "fortnite",
+    "title_en": "Fortnite",
+    "title_zh": "堡垒之夜",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo",
+      "Mobile"
+    ],
+    "official_url": "https://www.fortnite.com/",
+    "catalog_sources": [
+      "https://www.fortnite.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "garry-s-mod",
+    "title_en": "Garry's Mod",
+    "title_zh": "盖瑞模组",
+    "aliases_zh": [],
+    "release_date": "2006",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Garry's%20Mod",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 69,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "genshin-impact",
+    "title_en": "Genshin Impact",
+    "title_zh": "原神",
+    "aliases_zh": [],
+    "release_date": "2020",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Mobile"
+    ],
+    "official_url": "https://genshin.hoyoverse.com/en/",
+    "catalog_sources": [
+      "https://genshin.hoyoverse.com/en/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "geometry-dash",
+    "title_en": "Geometry Dash",
+    "title_zh": "几何冲刺",
+    "aliases_zh": [],
+    "release_date": "2014",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Geometry%20Dash",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 29,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "god-of-war-ragnaro-k",
+    "title_en": "God of War Ragnarök",
+    "title_zh": "战神：诸神黄昏",
+    "aliases_zh": [],
+    "release_date": "2022",
+    "platforms": [
+      "PC",
+      "PlayStation 4",
+      "PlayStation 5"
+    ],
+    "official_url": "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+    "catalog_sources": [
+      "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+      "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+      "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "grand-theft-auto-v-legacy",
+    "title_en": "Grand Theft Auto V Legacy",
+    "title_zh": "侠盗猎车手V（经典版）",
+    "aliases_zh": [],
+    "release_date": "2015",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Grand%20Theft%20Auto%20V%20Legacy",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 20,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "hearts-of-iron-iv",
+    "title_en": "Hearts of Iron IV",
+    "title_zh": "钢铁雄心4",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Hearts%20of%20Iron%20IV",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 41,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "helldivers-2",
+    "title_en": "HELLDIVERS™ 2",
+    "title_zh": "绝地潜兵2",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=HELLDIVERS%E2%84%A2%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 32,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "hogwarts-legacy",
+    "title_en": "Hogwarts Legacy",
+    "title_zh": "霍格沃茨之遗",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo Switch"
+    ],
+    "official_url": "https://www.hogwartslegacy.com/",
+    "catalog_sources": [
+      "https://www.hogwartslegacy.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "honkai-star-rail",
+    "title_en": "Honkai: Star Rail",
+    "title_zh": "崩坏：星穹铁道",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Mobile"
+    ],
+    "official_url": "https://hsr.hoyoverse.com/en-us/",
+    "catalog_sources": [
+      "https://hsr.hoyoverse.com/en-us/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "kingdom-come-deliverance-ii",
+    "title_en": "Kingdom Come: Deliverance II",
+    "title_zh": "天国：拯救2",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.kingdomcomerpg.com/",
+    "catalog_sources": [
+      "https://www.kingdomcomerpg.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "league-of-legends",
+    "title_en": "League of Legends",
+    "title_zh": "英雄联盟",
+    "aliases_zh": [],
+    "release_date": "2009",
+    "platforms": [
+      "PC"
+    ],
+    "official_url": "https://www.leagueoflegends.com/en-us/",
+    "catalog_sources": [
+      "https://www.leagueoflegends.com/en-us/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "left-4-dead-2",
+    "title_en": "Left 4 Dead 2",
+    "title_zh": "求生之路2",
+    "aliases_zh": [],
+    "release_date": "2009",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Left%204%20Dead%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 79,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "limbus-company",
+    "title_en": "Limbus Company",
+    "title_zh": "边狱公司",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Limbus%20Company",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 34,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "maplestory",
+    "title_en": "MapleStory",
+    "title_zh": "冒险岛",
+    "aliases_zh": [],
+    "release_date": "2005",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=MapleStory",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 70,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "mario-kart-8-deluxe",
+    "title_en": "Mario Kart 8 Deluxe",
+    "title_zh": "马力欧卡丁车8 豪华版",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "Nintendo Switch"
+    ],
+    "official_url": "https://mariokart8.nintendo.com/",
+    "catalog_sources": [
+      "https://mariokart8.nintendo.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "marvel-rivals",
+    "title_en": "Marvel Rivals",
+    "title_zh": "漫威争锋",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Marvel%20Rivals",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 51,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "marvel-s-spider-man-2",
+    "title_en": "Marvel's Spider-Man 2",
+    "title_zh": "漫威蜘蛛侠2",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "official_url": "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+    "catalog_sources": [
+      "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+      "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+      "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "minecraft",
+    "title_en": "Minecraft",
+    "title_zh": "我的世界",
+    "aliases_zh": [],
+    "release_date": "2011",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Nintendo",
+      "Mobile"
+    ],
+    "official_url": "https://www.minecraft.net/",
+    "catalog_sources": [
+      "https://www.minecraft.net/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "monster-hunter-wilds",
+    "title_en": "Monster Hunter Wilds",
+    "title_zh": "怪物猎人：荒野",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Monster%20Hunter%20Wilds",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 77,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "mount-blade-ii-bannerlord",
+    "title_en": "Mount & Blade II: Bannerlord",
+    "title_zh": "骑马与砍杀2：霸主",
+    "aliases_zh": [],
+    "release_date": "2022",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Mount%20%26%20Blade%20II%3A%20Bannerlord",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 60,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "naraka-bladepoint",
+    "title_en": "NARAKA: BLADEPOINT",
+    "title_zh": "永劫无间",
+    "aliases_zh": [],
+    "release_date": "2021",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=NARAKA%3A%20BLADEPOINT",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 43,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "once-human",
+    "title_en": "Once Human",
+    "title_zh": "七日世界",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Once%20Human",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 47,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "overwatch",
+    "title_en": "Overwatch®",
+    "title_zh": "守望先锋",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Overwatch%C2%AE",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 38,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "palworld",
+    "title_en": "Palworld",
+    "title_zh": "幻兽帕鲁",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Palworld",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 33,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "project-zomboid",
+    "title_en": "Project Zomboid",
+    "title_zh": "僵尸毁灭工程",
+    "aliases_zh": [],
+    "release_date": "2013",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Project%20Zomboid",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 36,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "pubg-battlegrounds",
+    "title_en": "PUBG: BATTLEGROUNDS",
+    "title_zh": "绝地求生",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=PUBG%3A%20BATTLEGROUNDS",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 3,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "red-dead-redemption-2",
+    "title_en": "Red Dead Redemption 2",
+    "title_zh": "荒野大镖客：救赎2",
+    "aliases_zh": [],
+    "release_date": "2018",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Red%20Dead%20Redemption%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 50,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "rimworld",
+    "title_en": "RimWorld",
+    "title_zh": "环世界",
+    "aliases_zh": [],
+    "release_date": "2018",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=RimWorld",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 42,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "roblox",
+    "title_en": "Roblox",
+    "title_zh": "Roblox",
+    "aliases_zh": [],
+    "release_date": "2006",
+    "platforms": [
+      "PC",
+      "PlayStation",
+      "Xbox",
+      "Mobile"
+    ],
+    "official_url": "https://www.roblox.com/",
+    "catalog_sources": [
+      "https://www.roblox.com/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "rust",
+    "title_en": "Rust",
+    "title_zh": "腐蚀",
+    "aliases_zh": [],
+    "release_date": "2018",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Rust",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 13,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "sid-meier-s-civilization-vi",
+    "title_en": "Sid Meier’s Civilization® VI",
+    "title_zh": "文明6",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Sid%20Meier%E2%80%99s%20Civilization%C2%AE%20VI",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 49,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "slay-the-spire-2",
+    "title_en": "Slay the Spire 2",
+    "title_zh": "杀戮尖塔2",
+    "aliases_zh": [],
+    "release_date": "2026",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Slay%20the%20Spire%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 18,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "south-of-midnight",
+    "title_en": "South of Midnight",
+    "title_zh": "午夜之南",
+    "aliases_zh": [],
+    "release_date": "2025",
+    "platforms": [
+      "PC",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.xbox.com/en-US/games/south-of-midnight",
+    "catalog_sources": [
+      "https://www.xbox.com/en-US/games/south-of-midnight",
+      "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+      "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "star-wars-outlaws",
+    "title_en": "Star Wars Outlaws",
+    "title_zh": "星球大战：亡命之徒",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.ubisoft.com/en-us/game/star-wars/outlaws",
+    "catalog_sources": [
+      "https://www.ubisoft.com/en-us/game/star-wars/outlaws"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "stardew-valley",
+    "title_en": "Stardew Valley",
+    "title_zh": "星露谷物语",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Stardew%20Valley",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 21,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "street-fighter-6",
+    "title_en": "Street Fighter™ 6",
+    "title_zh": "街头霸王6",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Street%20Fighter%E2%84%A2%206",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 63,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "suicide-squad-kill-the-justice-league",
+    "title_en": "Suicide Squad: Kill the Justice League",
+    "title_zh": "自杀小队：战胜正义联盟",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://www.suicidesquadgame.com/",
+    "catalog_sources": [
+      "https://www.suicidesquadgame.com/",
+      "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+      "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "investigating",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "tbh-task-bar-hero",
+    "title_en": "TBH: Task Bar Hero",
+    "title_zh": "TBH：任务栏英雄",
+    "aliases_zh": [],
+    "release_date": "2026",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=TBH%3A%20Task%20Bar%20Hero",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 14,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "team-fortress-2",
+    "title_en": "Team Fortress 2",
+    "title_zh": "军团要塞2",
+    "aliases_zh": [],
+    "release_date": "2007",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Team%20Fortress%202",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 7,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "terraria",
+    "title_en": "Terraria",
+    "title_zh": "泰拉瑞亚",
+    "aliases_zh": [],
+    "release_date": "2011",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Terraria",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 46,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-binding-of-isaac-rebirth",
+    "title_en": "The Binding of Isaac: Rebirth",
+    "title_zh": "以撒的结合：重生",
+    "aliases_zh": [],
+    "release_date": "2014",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=The%20Binding%20of%20Isaac%3A%20Rebirth",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 25,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-elder-scrolls-v-skyrim-special-edition",
+    "title_en": "The Elder Scrolls V: Skyrim Special Edition",
+    "title_zh": "上古卷轴5：天际特别版",
+    "aliases_zh": [],
+    "release_date": "2016",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=The%20Elder%20Scrolls%20V%3A%20Skyrim%20Special%20Edition",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 68,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-isle",
+    "title_en": "The Isle",
+    "title_zh": "The Isle",
+    "aliases_zh": [],
+    "release_date": "2015",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=The%20Isle",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 82,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-last-of-us-part-ii-remastered",
+    "title_en": "The Last of Us Part II Remastered",
+    "title_zh": "最后生还者 第二部 复刻版",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5"
+    ],
+    "official_url": "https://www.playstation.com/en-us/games/the-last-of-us-part-ii-remastered/",
+    "catalog_sources": [
+      "https://www.playstation.com/en-us/games/the-last-of-us-part-ii-remastered/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-legend-of-zelda-tears-of-the-kingdom",
+    "title_en": "The Legend of Zelda: Tears of the Kingdom",
+    "title_zh": "塞尔达传说：王国之泪",
+    "aliases_zh": [],
+    "release_date": "2023",
+    "platforms": [
+      "Nintendo Switch"
+    ],
+    "official_url": "https://www.zelda.com/tears-of-the-kingdom/",
+    "catalog_sources": [
+      "https://www.zelda.com/tears-of-the-kingdom/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-outlast-trials",
+    "title_en": "The Outlast Trials",
+    "title_zh": "逃生：试炼",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=The%20Outlast%20Trials",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 87,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-sims-4",
+    "title_en": "The Sims™ 4",
+    "title_zh": "模拟人生4",
+    "aliases_zh": [],
+    "release_date": "2014",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=The%20Sims%E2%84%A2%204",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 76,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "the-witcher-3-wild-hunt-remastered",
+    "title_en": "The Witcher 3: Wild Hunt — Remastered",
+    "title_zh": "巫师3：狂猎—复刻版",
+    "aliases_zh": [],
+    "release_date": "2026",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=The%20Witcher%203%3A%20Wild%20Hunt%20%E2%80%94%20Remastered",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 31,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "tom-clancy-s-rainbow-six-siege",
+    "title_en": "Tom Clancy's Rainbow Six Siege",
+    "title_zh": "彩虹六号：围攻",
+    "aliases_zh": [],
+    "release_date": "2015",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Tom%20Clancy's%20Rainbow%20Six%20Siege",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 39,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "total-war-warhammer-iii",
+    "title_en": "Total War: WARHAMMER III",
+    "title_zh": "全面战争：战锤3",
+    "aliases_zh": [],
+    "release_date": "2022",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Total%20War%3A%20WARHAMMER%20III",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 44,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "valheim",
+    "title_en": "Valheim",
+    "title_zh": "英灵神殿",
+    "aliases_zh": [],
+    "release_date": "2021",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Valheim",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 26,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "valorant",
+    "title_en": "VALORANT",
+    "title_zh": "无畏契约",
+    "aliases_zh": [],
+    "release_date": "2020",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S"
+    ],
+    "official_url": "https://playvalorant.com/en-us/",
+    "catalog_sources": [
+      "https://playvalorant.com/en-us/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "vrchat",
+    "title_en": "VRChat",
+    "title_zh": "VRChat",
+    "aliases_zh": [],
+    "release_date": "2017",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=VRChat",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 24,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "war-thunder",
+    "title_en": "War Thunder",
+    "title_zh": "战争雷霆",
+    "aliases_zh": [],
+    "release_date": "2013",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=War%20Thunder",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 19,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "wardogs",
+    "title_en": "WARDOGS",
+    "title_zh": "WARDOGS",
+    "aliases_zh": [],
+    "release_date": "2026-09",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=WARDOGS",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 15,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "warframe",
+    "title_en": "Warframe",
+    "title_zh": "星际战甲",
+    "aliases_zh": [],
+    "release_date": "2013",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Warframe",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 17,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "yu-gi-oh-master-duel",
+    "title_en": "Yu-Gi-Oh! Master Duel",
+    "title_zh": "游戏王：大师决斗",
+    "aliases_zh": [],
+    "release_date": "2022",
+    "platforms": [
+      "PC (Steam)"
+    ],
+    "official_url": "https://store.steampowered.com/search/?term=Yu-Gi-Oh!%20Master%20Duel",
+    "catalog_sources": [
+      "https://store.steampowered.com/charts/mostplayed",
+      "https://steamandepic.com/en/charts/steam/most-played/"
+    ],
+    "intake_source": "Steam",
+    "steam_chart_rank": 67,
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
+  },
+  {
+    "game_id": "zenless-zone-zero",
+    "title_en": "Zenless Zone Zero",
+    "title_zh": "绝区零",
+    "aliases_zh": [],
+    "release_date": "2024",
+    "platforms": [
+      "PC",
+      "PlayStation 5",
+      "Xbox Series X|S",
+      "Mobile"
+    ],
+    "official_url": "https://zenless.hoyoverse.com/en-us/",
+    "catalog_sources": [
+      "https://zenless.hoyoverse.com/en-us/"
+    ],
+    "intake_source": "Cross-platform",
+    "name_review_status": "working_translation_not_yet_approved",
+    "investigation_status": "unreviewed",
+    "decision": "pending",
+    "issues": [],
+    "evidence": {
+      "reviews": [],
+      "promotional": [],
+      "player": []
+    },
+    "remediation": {
+      "status": "none",
+      "date": null,
+      "summary_zh": "",
+      "summary_en": "",
+      "sources": []
+    }
   }
 ]

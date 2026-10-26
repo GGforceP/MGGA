@@ -23,11 +23,13 @@ Alphabetized by **official English title**. Each game's following line links to 
 
 <!-- MGGA-INDEX -->
 
-### Catalog entry example
+### First 100 popular titles · A–Z research catalog
 
-<!-- MGGA-SAMPLE -->
+> **Research catalog, NOT an avoid-list verdict.** 75 entries are from an official Steam most-played snapshot and 25 are selected cross-platform titles. Exact localizations, platform release dates, and claim verification remain in progress.
 
-This sample is only a factual release record, **not an allegation nor an avoid-list entry**. Official Simplified Chinese game titles take precedence; other titles are retained as searchable aliases.
+[100-title research report](reports/initial-100-2026-10-26.md) · [Source manifest](data/intake-2026-10-26.json) · [Search page](https://GGforceP.github.io/MGGA/)
+
+<!-- MGGA-CATALOG -->
 
 ### Evidence library
 

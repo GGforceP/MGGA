@@ -1,0 +1,898 @@
+{
+  "date": "2026-10-26",
+  "steam_chart_source": "https://store.steampowered.com/charts/mostplayed",
+  "secondary_source": "https://steamandepic.com/en/charts/steam/most-played/",
+  "steam_count": 75,
+  "cross_platform_count": 25,
+  "selection_warning": "100 popular research leads, not 100 blacklisted games. Steam chart is a snapshot; release dates and localized titles are preliminary.",
+  "titles": [
+    {
+      "id": "7-days-to-die",
+      "name": "7 Days to Die",
+      "rank": 75,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "age-of-empires-ii-definitive-edition",
+      "name": "Age of Empires II: Definitive Edition",
+      "rank": 85,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "aion-2",
+      "name": "AION 2",
+      "rank": 5,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "alan-wake-2",
+      "name": "Alan Wake 2",
+      "rank": null,
+      "sources": [
+        "https://www.alanwake.com/",
+        "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+        "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+      ]
+    },
+    {
+      "id": "aniimo",
+      "name": "Aniimo",
+      "rank": 37,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "apex-legends",
+      "name": "Apex Legends™",
+      "rank": 10,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "arc-raiders",
+      "name": "ARC Raiders",
+      "rank": 27,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "arena-breakout-infinite",
+      "name": "Arena Breakout: Infinite",
+      "rank": 72,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "ark-survival-ascended",
+      "name": "ARK: Survival Ascended",
+      "rank": 74,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "ark-survival-evolved",
+      "name": "ARK: Survival Evolved",
+      "rank": 91,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "assassin-s-creed-shadows",
+      "name": "Assassin's Creed Shadows",
+      "rank": null,
+      "sources": [
+        "https://www.ubisoft.com/en-us/game/assassins-creed/shadows",
+        "https://news.ubisoft.com/en-au/article/7dWPCtVQU7udC0KkPFOyXh/assassins-creed-shadows-an-update-for-the-japanese-community"
+      ]
+    },
+    {
+      "id": "assassin-s-creed-valhalla",
+      "name": "Assassin's Creed Valhalla",
+      "rank": null,
+      "sources": [
+        "https://www.ubisoft.com/en-us/game/assassins-creed/valhalla",
+        "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+        "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+      ]
+    },
+    {
+      "id": "baldur-s-gate-3",
+      "name": "Baldur's Gate 3",
+      "rank": 52,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "battlefield-6",
+      "name": "Battlefield™ 6",
+      "rank": 64,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "beamng-drive",
+      "name": "BeamNG.drive",
+      "rank": 62,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "black-desert",
+      "name": "Black Desert",
+      "rank": 80,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "black-myth-wukong",
+      "name": "Black Myth: Wukong",
+      "rank": null,
+      "sources": [
+        "https://www.heishenhua.com/"
+      ]
+    },
+    {
+      "id": "bongo-cat",
+      "name": "Bongo Cat",
+      "rank": 4,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "call-of-duty",
+      "name": "Call of Duty®",
+      "rank": 6,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "clair-obscur-expedition-33",
+      "name": "Clair Obscur: Expedition 33",
+      "rank": null,
+      "sources": [
+        "https://www.expedition33.com/"
+      ]
+    },
+    {
+      "id": "counter-strike-2",
+      "name": "Counter-Strike 2",
+      "rank": 2,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "crusader-kings-iii",
+      "name": "Crusader Kings III",
+      "rank": 83,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "cyberpunk-2077",
+      "name": "Cyberpunk 2077",
+      "rank": 8,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "dayz",
+      "name": "DayZ",
+      "rank": 40,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "dead-by-daylight",
+      "name": "Dead by Daylight",
+      "rank": 30,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "delta-force",
+      "name": "Delta Force",
+      "rank": 16,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "destiny-2",
+      "name": "Destiny 2",
+      "rank": 81,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "don-t-starve-together",
+      "name": "Don't Starve Together",
+      "rank": 28,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "dota-2",
+      "name": "Dota 2",
+      "rank": 1,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "dragon-age-the-veilguard",
+      "name": "Dragon Age: The Veilguard",
+      "rank": null,
+      "sources": [
+        "https://www.ea.com/games/dragon-age/dragon-age-the-veilguard"
+      ]
+    },
+    {
+      "id": "ea-sports-fc-26",
+      "name": "EA SPORTS FC™ 26",
+      "rank": 78,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "ea-sports-fc-27",
+      "name": "EA SPORTS FC™ 27",
+      "rank": 45,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "elden-ring",
+      "name": "ELDEN RING",
+      "rank": 71,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "enshrouded",
+      "name": "Enshrouded",
+      "rank": 23,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "escape-from-tarkov",
+      "name": "Escape from Tarkov",
+      "rank": 54,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "euro-truck-simulator-2",
+      "name": "Euro Truck Simulator 2",
+      "rank": 53,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "factorio",
+      "name": "Factorio",
+      "rank": 89,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "farming-simulator-25",
+      "name": "Farming Simulator 25",
+      "rank": 57,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "final-fantasy-resonance",
+      "name": "FINAL FANTASY RESONANCE",
+      "rank": 55,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "final-fantasy-vii-rebirth",
+      "name": "FINAL FANTASY VII REBIRTH",
+      "rank": null,
+      "sources": [
+        "https://ffvii.square-enix-games.com/en-us/games/rebirth"
+      ]
+    },
+    {
+      "id": "football-manager-26",
+      "name": "Football Manager 26",
+      "rank": 65,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "fortnite",
+      "name": "Fortnite",
+      "rank": null,
+      "sources": [
+        "https://www.fortnite.com/"
+      ]
+    },
+    {
+      "id": "garry-s-mod",
+      "name": "Garry's Mod",
+      "rank": 69,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "genshin-impact",
+      "name": "Genshin Impact",
+      "rank": null,
+      "sources": [
+        "https://genshin.hoyoverse.com/en/"
+      ]
+    },
+    {
+      "id": "geometry-dash",
+      "name": "Geometry Dash",
+      "rank": 29,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "god-of-war-ragnaro-k",
+      "name": "God of War Ragnarök",
+      "rank": null,
+      "sources": [
+        "https://www.playstation.com/en-us/games/god-of-war-ragnarok/",
+        "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+        "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+      ]
+    },
+    {
+      "id": "grand-theft-auto-v-legacy",
+      "name": "Grand Theft Auto V Legacy",
+      "rank": 20,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "hearts-of-iron-iv",
+      "name": "Hearts of Iron IV",
+      "rank": 41,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "helldivers-2",
+      "name": "HELLDIVERS™ 2",
+      "rank": 32,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "hogwarts-legacy",
+      "name": "Hogwarts Legacy",
+      "rank": null,
+      "sources": [
+        "https://www.hogwartslegacy.com/"
+      ]
+    },
+    {
+      "id": "honkai-star-rail",
+      "name": "Honkai: Star Rail",
+      "rank": null,
+      "sources": [
+        "https://hsr.hoyoverse.com/en-us/"
+      ]
+    },
+    {
+      "id": "kingdom-come-deliverance-ii",
+      "name": "Kingdom Come: Deliverance II",
+      "rank": null,
+      "sources": [
+        "https://www.kingdomcomerpg.com/"
+      ]
+    },
+    {
+      "id": "league-of-legends",
+      "name": "League of Legends",
+      "rank": null,
+      "sources": [
+        "https://www.leagueoflegends.com/en-us/"
+      ]
+    },
+    {
+      "id": "left-4-dead-2",
+      "name": "Left 4 Dead 2",
+      "rank": 79,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "limbus-company",
+      "name": "Limbus Company",
+      "rank": 34,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "maplestory",
+      "name": "MapleStory",
+      "rank": 70,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "mario-kart-8-deluxe",
+      "name": "Mario Kart 8 Deluxe",
+      "rank": null,
+      "sources": [
+        "https://mariokart8.nintendo.com/"
+      ]
+    },
+    {
+      "id": "marvel-rivals",
+      "name": "Marvel Rivals",
+      "rank": 51,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "marvel-s-spider-man-2",
+      "name": "Marvel's Spider-Man 2",
+      "rank": null,
+      "sources": [
+        "https://www.playstation.com/en-us/games/marvels-spider-man-2/",
+        "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+        "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+      ]
+    },
+    {
+      "id": "minecraft",
+      "name": "Minecraft",
+      "rank": null,
+      "sources": [
+        "https://www.minecraft.net/"
+      ]
+    },
+    {
+      "id": "monster-hunter-wilds",
+      "name": "Monster Hunter Wilds",
+      "rank": 77,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "mount-blade-ii-bannerlord",
+      "name": "Mount & Blade II: Bannerlord",
+      "rank": 60,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "naraka-bladepoint",
+      "name": "NARAKA: BLADEPOINT",
+      "rank": 43,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "once-human",
+      "name": "Once Human",
+      "rank": 47,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "overwatch",
+      "name": "Overwatch®",
+      "rank": 38,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "palworld",
+      "name": "Palworld",
+      "rank": 33,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "project-zomboid",
+      "name": "Project Zomboid",
+      "rank": 36,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "pubg-battlegrounds",
+      "name": "PUBG: BATTLEGROUNDS",
+      "rank": 3,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "red-dead-redemption-2",
+      "name": "Red Dead Redemption 2",
+      "rank": 50,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "rimworld",
+      "name": "RimWorld",
+      "rank": 42,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "roblox",
+      "name": "Roblox",
+      "rank": null,
+      "sources": [
+        "https://www.roblox.com/"
+      ]
+    },
+    {
+      "id": "rust",
+      "name": "Rust",
+      "rank": 13,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "sid-meier-s-civilization-vi",
+      "name": "Sid Meier’s Civilization® VI",
+      "rank": 49,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "slay-the-spire-2",
+      "name": "Slay the Spire 2",
+      "rank": 18,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "south-of-midnight",
+      "name": "South of Midnight",
+      "rank": null,
+      "sources": [
+        "https://www.xbox.com/en-US/games/south-of-midnight",
+        "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+        "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+      ]
+    },
+    {
+      "id": "star-wars-outlaws",
+      "name": "Star Wars Outlaws",
+      "rank": null,
+      "sources": [
+        "https://www.ubisoft.com/en-us/game/star-wars/outlaws"
+      ]
+    },
+    {
+      "id": "stardew-valley",
+      "name": "Stardew Valley",
+      "rank": 21,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "street-fighter-6",
+      "name": "Street Fighter™ 6",
+      "rank": 63,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "suicide-squad-kill-the-justice-league",
+      "name": "Suicide Squad: Kill the Justice League",
+      "rank": null,
+      "sources": [
+        "https://www.suicidesquadgame.com/",
+        "https://www.mobygames.com/company/47076/sweet-baby-inc/games/",
+        "https://www.theshortcut.com/p/sweet-baby-inc-detected-what-actually-happened"
+      ]
+    },
+    {
+      "id": "tbh-task-bar-hero",
+      "name": "TBH: Task Bar Hero",
+      "rank": 14,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "team-fortress-2",
+      "name": "Team Fortress 2",
+      "rank": 7,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "terraria",
+      "name": "Terraria",
+      "rank": 46,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "the-binding-of-isaac-rebirth",
+      "name": "The Binding of Isaac: Rebirth",
+      "rank": 25,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "the-elder-scrolls-v-skyrim-special-edition",
+      "name": "The Elder Scrolls V: Skyrim Special Edition",
+      "rank": 68,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "the-isle",
+      "name": "The Isle",
+      "rank": 82,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "the-last-of-us-part-ii-remastered",
+      "name": "The Last of Us Part II Remastered",
+      "rank": null,
+      "sources": [
+        "https://www.playstation.com/en-us/games/the-last-of-us-part-ii-remastered/"
+      ]
+    },
+    {
+      "id": "the-legend-of-zelda-tears-of-the-kingdom",
+      "name": "The Legend of Zelda: Tears of the Kingdom",
+      "rank": null,
+      "sources": [
+        "https://www.zelda.com/tears-of-the-kingdom/"
+      ]
+    },
+    {
+      "id": "the-outlast-trials",
+      "name": "The Outlast Trials",
+      "rank": 87,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "the-sims-4",
+      "name": "The Sims™ 4",
+      "rank": 76,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "the-witcher-3-wild-hunt-remastered",
+      "name": "The Witcher 3: Wild Hunt — Remastered",
+      "rank": 31,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "tom-clancy-s-rainbow-six-siege",
+      "name": "Tom Clancy's Rainbow Six Siege",
+      "rank": 39,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "total-war-warhammer-iii",
+      "name": "Total War: WARHAMMER III",
+      "rank": 44,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "valheim",
+      "name": "Valheim",
+      "rank": 26,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "valorant",
+      "name": "VALORANT",
+      "rank": null,
+      "sources": [
+        "https://playvalorant.com/en-us/"
+      ]
+    },
+    {
+      "id": "vrchat",
+      "name": "VRChat",
+      "rank": 24,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "war-thunder",
+      "name": "War Thunder",
+      "rank": 19,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "wardogs",
+      "name": "WARDOGS",
+      "rank": 15,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "warframe",
+      "name": "Warframe",
+      "rank": 17,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "yu-gi-oh-master-duel",
+      "name": "Yu-Gi-Oh! Master Duel",
+      "rank": 67,
+      "sources": [
+        "https://store.steampowered.com/charts/mostplayed",
+        "https://steamandepic.com/en/charts/steam/most-played/"
+      ]
+    },
+    {
+      "id": "zenless-zone-zero",
+      "name": "Zenless Zone Zero",
+      "rank": null,
+      "sources": [
+        "https://zenless.hoyoverse.com/en-us/"
+      ]
+    }
+  ]
+}
