@@ -106,7 +106,7 @@ class MGGATest(unittest.TestCase):
 
     def test_no_listed_examples(self):
         text=list_section(load_json('data/games.json'),'zh')
-        self.assertIn('暂无',text)
+        self.assertIn('当前没有经过证据核实',text)
     def test_merge_preserves_first_seen(self):
         item={'id':'1','languages':['en'],'matched_queries':['q1'],'first_seen_at':'a','last_seen_at':'a'}
         upd={**item,'languages':['zh'],'matched_queries':['q2'],'first_seen_at':'b'}
