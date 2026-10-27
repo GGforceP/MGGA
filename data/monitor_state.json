@@ -1,9 +1,9 @@
 {
-  "last_scan_date": null,
-  "last_published_at": null,
-  "new_leads": 0,
-  "total_leads": 0,
-  "queries_executed": 0,
+  "last_scan_date": "2026-10-27",
+  "last_published_at": "2026-10-27 09:17:10 UTC+8",
+  "new_leads": 185,
+  "total_leads": 185,
+  "queries_executed": 36,
   "failed_queries": 0,
-  "note": "No automated scan has been published."
+  "note": "RSS-only multilingual signals, unverified; editorial listings unchanged."
 }

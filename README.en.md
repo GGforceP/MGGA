@@ -9,7 +9,7 @@
 
 ### At a glance
 
-Approved avoid list **2** · Remediated history **0** · Investigations **separate** · Unverified news leads **0**
+Approved avoid list **2** · Remediated history **0** · Investigations **separate** · Unverified news leads **185**
 
 **[A–Z index](#mgga-list)**　·　**[Separate research registry](research/README.en.md)**　·　**[Search games](https://GGforceP.github.io/MGGA/)** (requires GitHub Pages)　·　**[Latest discovery report](reports/latest.md)**　·　**[Submit a lead](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[中文版](README.md)**
 
@@ -32,12 +32,13 @@ Only documented, human-approved entries, including labelled personal aesthetic j
 <a id="letter-c"></a>
 ### C
 
-- **[Concord](https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/)**（星鸣特攻） · 2024-08 · PC (Steam) / PlayStation 5
+- **[Concord](https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/)** (星鸣特攻) · 2024-08-23 · PC (Steam) / PlayStation 5
   - **Personal aesthetic choice：** Personal aesthetic avoidance: widely criticized character visuals; any claim of deliberate uglification remains unverified · [Reviews](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E6%B5%8B%E8%AF%84%20%28Reviews%29/concord/README.md) · [Promotional](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20%28Promotional%20Materials%29/concord/README.md) · [Player evidence](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20%28Player-Submitted%20Evidence%29/concord/README.md) · [Remediation](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20%28Remediation%20%26%20Timeline%29/concord/README.md)
+
 <a id="letter-d"></a>
 ### D
 
-- **[Dying Light 2 Stay Human](https://techland.net/news/meet-lawan-from-dying-light-2-stay-human)**（消逝的光芒2：人与仁之战） · 2022-02 · PC / PlayStation 4 / PlayStation 5 / Xbox One / Xbox Series X\|S
+- **[Dying Light 2 Stay Human](https://techland.net/news/meet-lawan-from-dying-light-2-stay-human)** (消逝的光芒2：人与仁之战) · 2022-02-04 · PC / PlayStation 4 / PlayStation 5 / Xbox One / Xbox Series X\|S
   - **Personal aesthetic choice：** Personal aesthetic avoidance: Lawan's original design drew visual criticism; later optional appearance changes are documented separately · [Reviews](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E6%B5%8B%E8%AF%84%20%28Reviews%29/dying-light-2-stay-human/README.md) · [Promotional](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20%28Promotional%20Materials%29/dying-light-2-stay-human/README.md) · [Player evidence](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20%28Player-Submitted%20Evidence%29/dying-light-2-stay-human/README.md) · [Remediation](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20%28Remediation%20%26%20Timeline%29/dying-light-2-stay-human/README.md)
 
 
@@ -65,7 +66,7 @@ Documented widespread community controversy establishes that public discussion e
 | **02:00** daily | Collect public multilingual RSS/search leads, deduplicate, save as temporary Actions artifact | No |
 | **06:00** daily | Validate same-day scan, publish lead report, statistics, bilingual README and searchable index to `main` | **No**; publication only |
 
-Last successful publication: **Not yet automatically published**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
+Last successful publication: **2026-10-27 09:17:10 UTC+8**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
 
 **Monitoring the 100-title research catalog:** the collector rotates through 20 games per day, alternating Chinese and English each five-day cycle. Each title is searched in both languages over approximately ten days with a twelve-day lookback. Search hits remain unverified leads.
 

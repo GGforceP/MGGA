@@ -9,7 +9,7 @@
 
 ### 项目概览
 
-已核准避购 **2** · 历史补救 **0** · 待调查资料 **独立管理** · 未核实新闻线索 **0**
+已核准避购 **2** · 历史补救 **0** · 待调查资料 **独立管理** · 未核实新闻线索 **185**
 
 **[A–Z 正式列表](#mgga-list)**　·　**[独立调查登记册](research/README.md)**　·　**[游戏搜索](https://GGforceP.github.io/MGGA/)**（需启用 GitHub Pages）　·　**[最新采集报告](reports/latest.md)**　·　**[提交线索](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[英文版](README.en.md)**
 
@@ -34,6 +34,7 @@ MGGA 是维护者的**个人避购参考**。除经核实的具体合作或公�
 
 - **[Concord](https://blog.playstation.com/2024/05/30/concord-gameplay-revealed-launching-august-23-2024-on-ps5-and-pc/)**（星鸣特攻） · 2024年8月 · PC (Steam) / PlayStation 5
   - **个人审美避购理由：** 个人审美避购：角色视觉设计存在大量负面玩家讨论，维护者不接受其造型风格；“故意丑化”等创作动机未证实 · [测评](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E6%B5%8B%E8%AF%84%20%28Reviews%29/concord/README.md) · [宣发材料](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E5%AE%A3%E5%8F%91%E6%9D%90%E6%96%99%20%28Promotional%20Materials%29/concord/README.md) · [玩家证据](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%AF%81%E6%8D%AE%20%28Evidence%29/%E7%8E%A9%E5%AE%B6%E6%90%9C%E9%9B%86%E5%88%B0%E7%9A%84%E8%AF%81%E6%8D%AE%20%28Player-Submitted%20Evidence%29/concord/README.md) · [补救时间线](%E9%99%84%E5%8A%A0%E6%9D%90%E6%96%99%20%28Supplementary%20Materials%29/%E8%A1%A5%E6%95%91%E6%96%B9%E5%BC%8F%E3%80%81%E6%97%B6%E9%97%B4%20%28Remediation%20%26%20Timeline%29/concord/README.md)
+
 <a id="letter-d"></a>
 ### D
 
@@ -65,7 +66,7 @@ MGGA 是维护者的**个人避购参考**。除经核实的具体合作或公�
 | 每日 **02:00** | 采集多语言公开 RSS/新闻检索结果并暂存 Actions artifact，去重与生成未核验线索 | 否 |
 | 每日 **06:00** | 校验当天采集结果，更新线索、统计、双语首页和可搜索索引并提交到 `main` | 仅刷新展示；**不自动裁决** |
 
-上次成功发布：**尚未自动发布**。GitHub Actions 整点定时属于尽力调度，可能延迟或丢弃；不承诺精确到分秒。首次部署需手动触发 `collect` 再触发 `publish`，并在 Settings → Pages 启用 `docs/` 搜索网页。
+上次成功发布：**2026-10-27 09:17:10 UTC+8**。GitHub Actions 整点定时属于尽力调度，可能延迟或丢弃；不承诺精确到分秒。首次部署需手动触发 `collect` 再触发 `publish`，并在 Settings → Pages 启用 `docs/` 搜索网页。
 
 **首批100款调查目录的日常监测：** 每天从数据库轮选20款，以中文与英文交替搜索；约5天扫描完整游戏列表一次、约10天覆盖两种语言。游戏特定查询采用12天回溯窗口。搜索结果仍只是待核查线索，不自动裁决。
 
