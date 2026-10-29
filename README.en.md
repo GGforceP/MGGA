@@ -9,7 +9,7 @@
 
 ### At a glance
 
-Approved avoid list **2** · Remediated history **0** · Investigations **separate** · Unverified news leads **349**
+Approved avoid list **2** · Remediated history **0** · Investigations **separate** · Unverified news leads **471**
 
 **[A–Z index](#mgga-list)**　·　**[Separate research registry](research/README.en.md)**　·　**[Search games](https://GGforceP.github.io/MGGA/)** (requires GitHub Pages)　·　**[Latest discovery report](reports/latest.md)**　·　**[Submit a lead](.github/ISSUE_TEMPLATE/evidence-report.yml)**　·　**[中文版](README.md)**
 
@@ -66,7 +66,7 @@ Documented widespread community controversy establishes that public discussion e
 | **02:00** daily | Collect public multilingual RSS/search leads, deduplicate, save as temporary Actions artifact | No |
 | **06:00** daily | Validate same-day scan, publish lead report, statistics, bilingual README and searchable index to `main` | **No**; publication only |
 
-Last successful publication: **2026-10-28 09:02:35 UTC+8**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
+Last successful publication: **2026-10-29 09:38:50 UTC+8**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
 
 **Monitoring the 100-title research catalog:** the collector rotates through 20 games per day, alternating Chinese and English each five-day cycle. Each title is searched in both languages over approximately ten days with a twelve-day lookback. Search hits remain unverified leads.
 
