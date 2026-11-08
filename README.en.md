@@ -66,7 +66,7 @@ Documented widespread community controversy establishes that public discussion e
 | **02:00** daily | Collect public multilingual RSS/search leads, deduplicate, save as temporary Actions artifact | No |
 | **06:00** daily | Validate same-day scan, publish lead report, statistics, bilingual README and searchable index to `main` | **No**; publication only |
 
-Last successful publication: **2026-11-07 09:42:55 UTC+8**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
+Last successful publication: **2026-11-08 09:12:03 UTC+8**. Scheduled GitHub Actions can queue late or be skipped; exact wall-clock publication is not guaranteed. After deployment, manually run `collect` followed by `publish` once, and enable `docs/` as GitHub Pages source for live search.
 
 **Monitoring the 100-title research catalog:** the collector rotates through 20 games per day, alternating Chinese and English each five-day cycle. Each title is searched in both languages over approximately ten days with a twelve-day lookback. Search hits remain unverified leads.
 
