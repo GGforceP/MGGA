@@ -1,9 +1,9 @@
 {
-  "last_scan_date": "2026-11-25",
-  "last_published_at": "2026-11-25 12:49:17 UTC+8",
-  "new_leads": 75,
+  "last_scan_date": "2026-11-26",
+  "last_published_at": "2026-11-26 12:00:23 UTC+8",
+  "new_leads": 120,
   "total_leads": 1500,
   "queries_executed": 36,
-  "failed_queries": 1,
+  "failed_queries": 0,
   "note": "RSS-only multilingual signals, unverified; editorial listings unchanged."
 }
